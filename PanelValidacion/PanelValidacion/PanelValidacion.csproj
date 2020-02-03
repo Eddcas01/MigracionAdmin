@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4B0514E6-FBE2-4426-91D8-A90B1460ACDE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PanelValidacion</RootNamespace>
+    <AssemblyName>PanelValidacion</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mayor60.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mayor60.Designer.cs">
+      <DependentUpon>Mayor60.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MayorEdad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MayorEdad.Designer.cs">
+      <DependentUpon>MayorEdad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rechazo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rechazo.Designer.cs">
+      <DependentUpon>Rechazo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista2.Designer.cs">
+      <DependentUpon>Vista2.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mayor60.resx">
+      <DependentUpon>Mayor60.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MayorEdad.resx">
+      <DependentUpon>MayorEdad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Rechazo.resx">
+      <DependentUpon>Rechazo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista2.resx">
+      <DependentUpon>Vista2.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guatemala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-migracion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\one.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\two.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dpi frente.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\three.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\persona-e1533759204552.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dpi_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MUESTRA BOLETO-01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boleta depósito SOCIEDAD paso 2_2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

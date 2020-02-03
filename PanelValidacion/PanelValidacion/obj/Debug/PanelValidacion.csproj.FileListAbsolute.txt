@@ -1,0 +1,14 @@
+C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\bin\Debug\PanelValidacion.exe.config
+C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\bin\Debug\PanelValidacion.exe
+C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\bin\Debug\PanelValidacion.pdb
+C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\obj\Debug\PanelValidacion.csprojAssemblyReference.cache
+C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\obj\Debug\PanelValidacion.Form1.resources
+C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\obj\Debug\PanelValidacion.Properties.Resources.resources
+C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\obj\Debug\PanelValidacion.csproj.GenerateResource.cache
+C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\obj\Debug\PanelValidacion.csproj.CoreCompileInputs.cache
+C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\obj\Debug\PanelValidacion.exe
+C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\obj\Debug\PanelValidacion.pdb
+C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\obj\Debug\PanelValidacion.Vista2.resources
+C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\obj\Debug\PanelValidacion.Rechazo.resources
+C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\obj\Debug\PanelValidacion.Mayor60.resources
+C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\obj\Debug\PanelValidacion.MayorEdad.resources
