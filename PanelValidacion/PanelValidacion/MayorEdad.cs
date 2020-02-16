@@ -12,9 +12,23 @@ namespace PanelValidacion
 {
     public partial class MayorEdad : Form
     {
-        public MayorEdad()
+        string user;
+        public MayorEdad(string cui)
         {
             InitializeComponent();
+            user = cui;
+            label3.Text = user;
+        }
+
+        private void HideAllTabsOnTabControl(TabControl theTabControl)
+        {
+            theTabControl.Appearance = TabAppearance.FlatButtons;
+            theTabControl.ItemSize = new Size(0, 1);
+            theTabControl.SizeMode = TabSizeMode.Fixed;
+        }
+        private void MayorEdad_Load(object sender, EventArgs e)
+        {
+            HideAllTabsOnTabControl(tabControl1);
         }
     }
 }

@@ -34,15 +34,15 @@
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Txt_rechazo = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.Btn_aceptar = new System.Windows.Forms.Button();
-            this.Btn_Cancelar = new System.Windows.Forms.Button();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
+            this.Btn_aceptar = new System.Windows.Forms.Button();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
+            this.Btn_Cancelar = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -140,16 +140,16 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox1
+            // Txt_rechazo
             // 
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.textBox1.Location = new System.Drawing.Point(103, 115);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(795, 169);
-            this.textBox1.TabIndex = 10;
-            this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
+            this.Txt_rechazo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Txt_rechazo.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.Txt_rechazo.Location = new System.Drawing.Point(103, 115);
+            this.Txt_rechazo.Multiline = true;
+            this.Txt_rechazo.Name = "Txt_rechazo";
+            this.Txt_rechazo.Size = new System.Drawing.Size(795, 169);
+            this.Txt_rechazo.TabIndex = 10;
+            this.Txt_rechazo.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // tableLayoutPanel3
             // 
@@ -157,7 +157,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel3.Controls.Add(this.textBox1, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.Txt_rechazo, 1, 1);
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel4, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel5, 1, 2);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -169,19 +169,6 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 132F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(1002, 420);
             this.tableLayoutPanel3.TabIndex = 11;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 20.75F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.label2.Location = new System.Drawing.Point(82, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(630, 106);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "Escriba la Razón del Rechazo";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel4
             // 
@@ -198,6 +185,19 @@
             this.tableLayoutPanel4.Size = new System.Drawing.Size(795, 106);
             this.tableLayoutPanel4.TabIndex = 12;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 20.75F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
+            this.label2.Location = new System.Drawing.Point(82, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(630, 106);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Escriba la Razón del Rechazo";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // tableLayoutPanel5
             // 
             this.tableLayoutPanel5.ColumnCount = 2;
@@ -212,32 +212,6 @@
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel5.Size = new System.Drawing.Size(795, 127);
             this.tableLayoutPanel5.TabIndex = 13;
-            // 
-            // Btn_aceptar
-            // 
-            this.Btn_aceptar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.Btn_aceptar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Btn_aceptar.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.Btn_aceptar.ForeColor = System.Drawing.Color.White;
-            this.Btn_aceptar.Location = new System.Drawing.Point(198, 3);
-            this.Btn_aceptar.Name = "Btn_aceptar";
-            this.Btn_aceptar.Size = new System.Drawing.Size(190, 54);
-            this.Btn_aceptar.TabIndex = 0;
-            this.Btn_aceptar.Text = "Aceptar";
-            this.Btn_aceptar.UseVisualStyleBackColor = false;
-            // 
-            // Btn_Cancelar
-            // 
-            this.Btn_Cancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.Btn_Cancelar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Btn_Cancelar.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.Btn_Cancelar.ForeColor = System.Drawing.Color.White;
-            this.Btn_Cancelar.Location = new System.Drawing.Point(3, 3);
-            this.Btn_Cancelar.Name = "Btn_Cancelar";
-            this.Btn_Cancelar.Size = new System.Drawing.Size(190, 54);
-            this.Btn_Cancelar.TabIndex = 1;
-            this.Btn_Cancelar.Text = "Cancelar";
-            this.Btn_Cancelar.UseVisualStyleBackColor = false;
             // 
             // tableLayoutPanel6
             // 
@@ -254,6 +228,20 @@
             this.tableLayoutPanel6.Size = new System.Drawing.Size(391, 121);
             this.tableLayoutPanel6.TabIndex = 0;
             // 
+            // Btn_aceptar
+            // 
+            this.Btn_aceptar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
+            this.Btn_aceptar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Btn_aceptar.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.Btn_aceptar.ForeColor = System.Drawing.Color.White;
+            this.Btn_aceptar.Location = new System.Drawing.Point(198, 3);
+            this.Btn_aceptar.Name = "Btn_aceptar";
+            this.Btn_aceptar.Size = new System.Drawing.Size(190, 54);
+            this.Btn_aceptar.TabIndex = 0;
+            this.Btn_aceptar.Text = "Aceptar";
+            this.Btn_aceptar.UseVisualStyleBackColor = false;
+            this.Btn_aceptar.Click += new System.EventHandler(this.Btn_aceptar_Click);
+            // 
             // tableLayoutPanel7
             // 
             this.tableLayoutPanel7.ColumnCount = 2;
@@ -269,6 +257,20 @@
             this.tableLayoutPanel7.Size = new System.Drawing.Size(392, 121);
             this.tableLayoutPanel7.TabIndex = 1;
             // 
+            // Btn_Cancelar
+            // 
+            this.Btn_Cancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
+            this.Btn_Cancelar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Btn_Cancelar.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.Btn_Cancelar.ForeColor = System.Drawing.Color.White;
+            this.Btn_Cancelar.Location = new System.Drawing.Point(3, 3);
+            this.Btn_Cancelar.Name = "Btn_Cancelar";
+            this.Btn_Cancelar.Size = new System.Drawing.Size(190, 54);
+            this.Btn_Cancelar.TabIndex = 1;
+            this.Btn_Cancelar.Text = "Cancelar";
+            this.Btn_Cancelar.UseVisualStyleBackColor = false;
+            this.Btn_Cancelar.Click += new System.EventHandler(this.Btn_Cancelar_Click);
+            // 
             // Rechazo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -280,6 +282,7 @@
             this.Name = "Rechazo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Rechazo";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Rechazo_FormClosed);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
@@ -305,7 +308,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox Txt_rechazo;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.Label label2;

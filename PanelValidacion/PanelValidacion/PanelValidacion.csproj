@@ -72,6 +72,9 @@
     <Compile Include="Rechazo.Designer.cs">
       <DependentUpon>Rechazo.cs</DependentUpon>
     </Compile>
+    <Compile Include="SQL-Conexion.cs" />
+    <Compile Include="SQL-Rechazo.cs" />
+    <Compile Include="SQL-Validacion.cs" />
     <Compile Include="Vista2.cs">
       <SubType>Form</SubType>
     </Compile>
