@@ -13,10 +13,183 @@ namespace PanelValidacion
 {
     public partial class Mayor60 : Form
     {
-        string user;
-        string dato;
+        string user=  "";
+        string dato = "";
+        string boleto = "";
+        string boleta = "";
         SQL_Conexion conectar = new SQL_Conexion();
+        public void llenardatap1(string cui)
+        {
 
+            dato = cui;
+
+
+            string sql2 = "SELECT cui_progenitor FROM dpis_progenitores WHERE  cui_menor = '" + dato + "'; ";
+            OdbcCommand command2 = new OdbcCommand(sql2, conectar.conexion());
+            OdbcDataReader reader2 = command2.ExecuteReader();
+
+            while (reader2.Read())
+            {
+
+                string dpi1 = reader2.GetValue(0).ToString();
+
+
+
+                if (dpi1 != null)
+                {
+
+                    Lbl_dpiprog.Text = dpi1;
+
+
+
+
+
+
+                }
+                else
+                {
+
+                    button3.BackColor = Color.Red;
+                    button4.BackColor = Color.Red;
+                }
+
+
+
+            }
+
+            string sql = "SELECT * FROM dpis WHERE  cui = '" + dato + "'; ";
+            OdbcCommand command = new OdbcCommand(sql, conectar.conexion());
+            OdbcDataReader reader = command.ExecuteReader();
+
+            while (reader.Read())
+            {
+                Lbb_dpi2.Text = reader.GetValue(1).ToString();
+                Lbl_nombre2.Text = reader.GetValue(2).ToString();
+                Lbl_apellidos.Text = reader.GetValue(3).ToString();
+                Lbl_sexo.Text = reader.GetValue(4).ToString();
+                Lbl_estado.Text = reader.GetValue(5).ToString();
+
+            }
+
+
+
+
+
+        }
+
+          public void llenardatapago(string cui)
+        {
+
+            dato = cui;
+
+
+            string sql = "SELECT no_documento FROM  documentos WHERE  cui = '" + dato + "' AND nombre_documento = 'boleta_pago' AND estado_documento = 'Activo'; ";
+            OdbcCommand command = new OdbcCommand(sql, conectar.conexion());
+            OdbcDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                string no_boleta = reader.GetValue(0).ToString();
+
+                if (no_boleta != " ")
+                {
+                    string sql2 = "SELECT * FROM  boletas_bancos WHERE  no_boleta = '" + no_boleta + "'; ";
+                    OdbcCommand command2 = new OdbcCommand(sql2, conectar.conexion());
+                    OdbcDataReader reader2 = command2.ExecuteReader();
+
+
+                    if (reader2.Read() != false)
+                    {
+
+                        OdbcCommand command3 = new OdbcCommand(sql2, conectar.conexion());
+                        OdbcDataReader reader3 = command3.ExecuteReader();
+
+
+                        while (reader3.Read())
+                        {
+                            Lbl_noBoleta.Text = reader3.GetValue(1).ToString();
+                            Lbl_fecha.Text = reader3.GetValue(2).ToString();
+                            Lbl_estadobol.Text = reader3.GetValue(3).ToString();
+
+
+                        }
+
+                    }
+                    else
+                    {
+
+                        MessageBox.Show("El numero de boleto no existe en la base de datos de la Municipalidad ", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                        button2.BackColor = Color.Red;
+                    }
+                }
+                else
+                {
+
+                    MessageBox.Show("Documento no subido ", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+
+                }
+
+            }
+
+
+        }
+        public void llenarestatus(string cui)
+        {
+
+
+
+            dato = cui;
+
+
+            string sql = "SELECT nombres_dpi, apellidos_dpi FROM  dpis WHERE  cui = '" + dato + "' AND  estado_dpi = 'Activo'; ";
+            OdbcCommand command = new OdbcCommand(sql, conectar.conexion());
+            OdbcDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+
+                Lbl_Dpi2.Text = dato;
+                Lbl_nombres2.Text = reader.GetValue(0).ToString();
+                Lbl_apellidos2.Text = reader.GetValue(1).ToString();
+
+            }
+
+            string sql2 = "SELECT estatus_migratorio FROM  estatus_migratorios WHERE  cui = '" + dato + "' AND  estado_estatus_migratorio = 'Activo'; ";
+            OdbcCommand command2 = new OdbcCommand(sql2, conectar.conexion());
+            OdbcDataReader reader2 = command2.ExecuteReader();
+
+            while (reader2.Read())
+            {
+
+                Lbl_estatus2.Text = reader2.GetValue(0).ToString();
+
+
+            }
+
+
+
+
+
+
+
+
+        }
+        public void setButtonsColors(Button c)
+        {
+            System.Drawing.Color CelesteGob = System.Drawing.ColorTranslator.FromHtml("#bdbfbe");
+            Btn_dpi.BackColor = Color.White;
+            Btn_dpi.ForeColor = Color.Black;
+            Btn_dpi.FlatAppearance.MouseOverBackColor = Color.LightGray;
+            Btn_pago.BackColor = Color.White;
+            Btn_pago.ForeColor = Color.Black;
+            Btn_pago.FlatAppearance.MouseOverBackColor = Color.LightGray;
+            Btn_estatus.BackColor = Color.White;
+            Btn_estatus.ForeColor = Color.Black;
+            Btn_estatus.FlatAppearance.MouseOverBackColor = Color.LightGray;
+
+
+            c.BackColor = CelesteGob;
+            c.ForeColor = Color.White;
+            c.FlatAppearance.MouseOverBackColor = CelesteGob;
+        }
         public Mayor60(string cui)
         {
             InitializeComponent();
@@ -40,36 +213,18 @@ namespace PanelValidacion
 
             while (reader.Read())
             {
-                Lbl_dpi.Text = reader.GetValue(1).ToString();
+                Lbb_dpi2.Text = reader.GetValue(1).ToString();
                 Lbl_nombre2.Text = reader.GetValue(2).ToString();
-                Lbl_apellido2.Text = reader.GetValue(3).ToString();
+                Lbl_apellidos.Text = reader.GetValue(3).ToString();
                 Lbl_sexo.Text = reader.GetValue(4).ToString();
                 Lbl_estado.Text = reader.GetValue(5).ToString();
 
             }
-
+            
 
 
         }
-        public void setButtonsColors(Button c)
-        {
-            System.Drawing.Color CelesteGob = System.Drawing.ColorTranslator.FromHtml("#bdbfbe");
-            Btn_dpi.BackColor = Color.White;
-            Btn_dpi.ForeColor = Color.Black;
-            Btn_dpi.FlatAppearance.MouseOverBackColor = Color.LightGray;
-            Btn_pago.BackColor = Color.White;
-            Btn_pago.ForeColor = Color.Black;
-            Btn_pago.FlatAppearance.MouseOverBackColor = Color.LightGray;
-            Btn_estatus.BackColor = Color.White;
-            Btn_estatus.ForeColor = Color.Black;
-            Btn_estatus.FlatAppearance.MouseOverBackColor = Color.LightGray;
-
-
-            c.BackColor = CelesteGob;
-            c.ForeColor = Color.White;
-            c.FlatAppearance.MouseOverBackColor = CelesteGob;
-        }
-
+       
         private void HideAllTabsOnTabControl(TabControl theTabControl)
         {
             theTabControl.Appearance = TabAppearance.FlatButtons;
@@ -96,6 +251,16 @@ namespace PanelValidacion
         }
 
         private void Label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button13_Click(object sender, EventArgs e)
         {
 
         }

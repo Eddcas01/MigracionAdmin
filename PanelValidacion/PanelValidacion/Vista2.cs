@@ -422,7 +422,7 @@ namespace PanelValidacion
         {
             string fecha ;
 
-     DialogResult resul =  MessageBox.Show("¿Esta seguro que desea validar los documentos? ", "Alerta", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
+     DialogResult resul =  MessageBox.Show("¿Esta seguro que desea validar los documentos? ", "Alerta", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (resul == DialogResult.Yes)
             {
@@ -433,6 +433,10 @@ namespace PanelValidacion
                 string sql = "iNSERT INTO aceptaciones_documentos (cui, id_recepcion, fecha_aceptacion ) VALUES ('" + dato + "', (SELECT id_recepcion FROM recepciones_documentos WHERE cui = '" + dato + "' AND estado_recepcion = 'Activo') , '" + fecha + "')" ;
                 OdbcCommand command = new OdbcCommand(sql, conectar.conexion());
                 OdbcDataReader reader = command.ExecuteReader();
+
+                string sql2 = "UPDATE recepciones_documentos SET estado_recepcion='Inactivo' WHERE cui = " +dato ;
+                OdbcCommand command2 = new OdbcCommand(sql2, conectar.conexion());
+                OdbcDataReader reader2 = command2.ExecuteReader();
 
                 Form1 frm = new Form1();
                 frm.Show();

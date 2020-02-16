@@ -55,6 +55,11 @@
             this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
             this.Lbb_dpi2 = new System.Windows.Forms.Label();
+            this.btn_verif = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.Lbl_dpiprog = new System.Windows.Forms.Label();
+            this.Lbl_dpiprog2 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.Lbl_nombre2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -63,7 +68,8 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.Lbl_estado = new System.Windows.Forms.Label();
-            this.btn_verif = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
             this.label18 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -144,12 +150,6 @@
             this.tableLayoutPanel35 = new System.Windows.Forms.TableLayoutPanel();
             this.Btn_validarc = new System.Windows.Forms.Button();
             this.Btn_abrirc = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.Lbl_dpiprog = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.Lbl_dpiprog2 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
@@ -626,6 +626,55 @@
             this.Lbb_dpi2.TabIndex = 9;
             this.Lbb_dpi2.Text = "Invalido";
             // 
+            // btn_verif
+            // 
+            this.btn_verif.BackColor = System.Drawing.Color.LimeGreen;
+            this.btn_verif.Location = new System.Drawing.Point(273, 3);
+            this.btn_verif.Name = "btn_verif";
+            this.btn_verif.Size = new System.Drawing.Size(32, 17);
+            this.btn_verif.TabIndex = 15;
+            this.btn_verif.UseVisualStyleBackColor = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(3, 48);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(34, 20);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "DPI";
+            // 
+            // Lbl_dpiprog
+            // 
+            this.Lbl_dpiprog.AutoSize = true;
+            this.Lbl_dpiprog.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_dpiprog.Location = new System.Drawing.Point(89, 48);
+            this.Lbl_dpiprog.Name = "Lbl_dpiprog";
+            this.Lbl_dpiprog.Size = new System.Drawing.Size(69, 20);
+            this.Lbl_dpiprog.TabIndex = 17;
+            this.Lbl_dpiprog.Text = "Invalido";
+            // 
+            // Lbl_dpiprog2
+            // 
+            this.Lbl_dpiprog2.AutoSize = true;
+            this.Lbl_dpiprog2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_dpiprog2.Location = new System.Drawing.Point(89, 96);
+            this.Lbl_dpiprog2.Name = "Lbl_dpiprog2";
+            this.Lbl_dpiprog2.Size = new System.Drawing.Size(69, 20);
+            this.Lbl_dpiprog2.TabIndex = 19;
+            this.Lbl_dpiprog2.Text = "Invalido";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(3, 96);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(34, 20);
+            this.label10.TabIndex = 18;
+            this.label10.Text = "DPI";
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -706,14 +755,23 @@
             this.Lbl_estado.TabIndex = 14;
             this.Lbl_estado.Text = "Invalido";
             // 
-            // btn_verif
+            // button3
             // 
-            this.btn_verif.BackColor = System.Drawing.Color.LimeGreen;
-            this.btn_verif.Location = new System.Drawing.Point(273, 3);
-            this.btn_verif.Name = "btn_verif";
-            this.btn_verif.Size = new System.Drawing.Size(32, 17);
-            this.btn_verif.TabIndex = 15;
-            this.btn_verif.UseVisualStyleBackColor = false;
+            this.button3.BackColor = System.Drawing.Color.LimeGreen;
+            this.button3.Location = new System.Drawing.Point(273, 51);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(32, 16);
+            this.button3.TabIndex = 20;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.LimeGreen;
+            this.button4.Location = new System.Drawing.Point(273, 99);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(32, 16);
+            this.button4.TabIndex = 21;
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // tableLayoutPanel14
             // 
@@ -1799,64 +1857,6 @@
             this.Btn_abrirc.TabIndex = 0;
             this.Btn_abrirc.Text = "Abir Documento";
             this.Btn_abrirc.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(3, 48);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 20);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "DPI";
-            // 
-            // Lbl_dpiprog
-            // 
-            this.Lbl_dpiprog.AutoSize = true;
-            this.Lbl_dpiprog.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_dpiprog.Location = new System.Drawing.Point(89, 48);
-            this.Lbl_dpiprog.Name = "Lbl_dpiprog";
-            this.Lbl_dpiprog.Size = new System.Drawing.Size(69, 20);
-            this.Lbl_dpiprog.TabIndex = 17;
-            this.Lbl_dpiprog.Text = "Invalido";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(3, 96);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(34, 20);
-            this.label10.TabIndex = 18;
-            this.label10.Text = "DPI";
-            // 
-            // Lbl_dpiprog2
-            // 
-            this.Lbl_dpiprog2.AutoSize = true;
-            this.Lbl_dpiprog2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_dpiprog2.Location = new System.Drawing.Point(89, 96);
-            this.Lbl_dpiprog2.Name = "Lbl_dpiprog2";
-            this.Lbl_dpiprog2.Size = new System.Drawing.Size(69, 20);
-            this.Lbl_dpiprog2.TabIndex = 19;
-            this.Lbl_dpiprog2.Text = "Invalido";
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.LimeGreen;
-            this.button3.Location = new System.Drawing.Point(273, 51);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(32, 16);
-            this.button3.TabIndex = 20;
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.LimeGreen;
-            this.button4.Location = new System.Drawing.Point(273, 99);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(32, 16);
-            this.button4.TabIndex = 21;
-            this.button4.UseVisualStyleBackColor = false;
             // 
             // Vista2
             // 
