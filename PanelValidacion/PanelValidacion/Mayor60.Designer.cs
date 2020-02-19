@@ -32,7 +32,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.label3 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
@@ -41,60 +40,6 @@
             this.Btn_pago = new System.Windows.Forms.Button();
             this.Btn_dpi = new System.Windows.Forms.Button();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
-            this.Btn_abrir = new System.Windows.Forms.Button();
-            this.Btn_validar = new System.Windows.Forms.Button();
-            this.Btn_rechazar = new System.Windows.Forms.Button();
-            this.Btn_abrirf = new System.Windows.Forms.Button();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.Pic_foto = new System.Windows.Forms.PictureBox();
-            this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.Lbb_dpi2 = new System.Windows.Forms.Label();
-            this.btn_verif = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.Lbl_dpiprog = new System.Windows.Forms.Label();
-            this.Lbl_dpiprog2 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.Lbl_nombre2 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.Lbl_apellidos = new System.Windows.Forms.Label();
-            this.Lbl_sexo = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.Lbl_estado = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
-            this.label18 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel15 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel16 = new System.Windows.Forms.TableLayoutPanel();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.tableLayoutPanel17 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
-            this.label19 = new System.Windows.Forms.Label();
-            this.Lbl_estadobol = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.Lbl_fecha = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.Lbl_noBoleta = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.tableLayoutPanel19 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel20 = new System.Windows.Forms.TableLayoutPanel();
-            this.label30 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel21 = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.tableLayoutPanel23 = new System.Windows.Forms.TableLayoutPanel();
-            this.label32 = new System.Windows.Forms.Label();
             this.tableLayoutPanel25 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel24 = new System.Windows.Forms.TableLayoutPanel();
             this.label33 = new System.Windows.Forms.Label();
@@ -119,6 +64,51 @@
             this.button12 = new System.Windows.Forms.Button();
             this.tableLayoutPanel30 = new System.Windows.Forms.TableLayoutPanel();
             this.button13 = new System.Windows.Forms.Button();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel15 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel16 = new System.Windows.Forms.TableLayoutPanel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.tableLayoutPanel17 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.Lbl_estadobol = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.Lbl_fecha = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.Lbl_noBoleta = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.tableLayoutPanel19 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel20 = new System.Windows.Forms.TableLayoutPanel();
+            this.label30 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel21 = new System.Windows.Forms.TableLayoutPanel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.tableLayoutPanel23 = new System.Windows.Forms.TableLayoutPanel();
+            this.label32 = new System.Windows.Forms.Label();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
+            this.Btn_validar = new System.Windows.Forms.Button();
+            this.Btn_rechazar = new System.Windows.Forms.Button();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.Pic_foto = new System.Windows.Forms.PictureBox();
+            this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.Lbb_dpi2 = new System.Windows.Forms.Label();
+            this.btn_verif = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.Lbl_nombre2 = new System.Windows.Forms.Label();
+            this.Lbl_apellidos = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.Lbl_sexo = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.Lbl_estado = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
+            this.label18 = new System.Windows.Forms.Label();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.Btn_regresar = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
@@ -126,24 +116,6 @@
             this.panel2.SuspendLayout();
             this.panel9.SuspendLayout();
             this.tabPage5.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.tabPage4.SuspendLayout();
-            this.tabControl1.SuspendLayout();
-            this.tableLayoutPanel8.SuspendLayout();
-            this.tableLayoutPanel12.SuspendLayout();
-            this.tableLayoutPanel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Pic_foto)).BeginInit();
-            this.tableLayoutPanel11.SuspendLayout();
-            this.tableLayoutPanel14.SuspendLayout();
-            this.tableLayoutPanel15.SuspendLayout();
-            this.tableLayoutPanel16.SuspendLayout();
-            this.tableLayoutPanel17.SuspendLayout();
-            this.tableLayoutPanel18.SuspendLayout();
-            this.tableLayoutPanel19.SuspendLayout();
-            this.tableLayoutPanel20.SuspendLayout();
-            this.tableLayoutPanel21.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.tableLayoutPanel23.SuspendLayout();
             this.tableLayoutPanel25.SuspendLayout();
             this.tableLayoutPanel24.SuspendLayout();
             this.tableLayoutPanel26.SuspendLayout();
@@ -155,6 +127,24 @@
             this.tableLayoutPanel28.SuspendLayout();
             this.tableLayoutPanel29.SuspendLayout();
             this.tableLayoutPanel30.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.tableLayoutPanel15.SuspendLayout();
+            this.tableLayoutPanel16.SuspendLayout();
+            this.tableLayoutPanel17.SuspendLayout();
+            this.tableLayoutPanel18.SuspendLayout();
+            this.tableLayoutPanel19.SuspendLayout();
+            this.tableLayoutPanel20.SuspendLayout();
+            this.tableLayoutPanel21.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.tableLayoutPanel23.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            this.tableLayoutPanel8.SuspendLayout();
+            this.tableLayoutPanel12.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_foto)).BeginInit();
+            this.tableLayoutPanel11.SuspendLayout();
+            this.tableLayoutPanel14.SuspendLayout();
+            this.tabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -207,8 +197,8 @@
             this.tableLayoutPanel2.ColumnCount = 2;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 98F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
-            this.tableLayoutPanel2.Controls.Add(this.label3, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.pictureBox3, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.Btn_regresar, 0, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(788, 3);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -217,19 +207,6 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(413, 108);
             this.tableLayoutPanel2.TabIndex = 1;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Goldenrod;
-            this.label3.Location = new System.Drawing.Point(3, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(398, 54);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Gustavo Perez";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // pictureBox3
             // 
@@ -341,713 +318,6 @@
             this.tabPage5.Text = "tabPage5";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.tableLayoutPanel15);
-            this.tabPage2.Location = new System.Drawing.Point(4, 28);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(939, 759);
-            this.tabPage2.TabIndex = 5;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Controls.Add(this.tableLayoutPanel8);
-            this.tabPage4.Location = new System.Drawing.Point(4, 28);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(939, 759);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "v";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // tabControl1
-            // 
-            this.tabControl1.Appearance = System.Windows.Forms.TabAppearance.FlatButtons;
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage5);
-            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl1.Location = new System.Drawing.Point(257, 114);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(947, 791);
-            this.tabControl1.TabIndex = 12;
-            // 
-            // tableLayoutPanel8
-            // 
-            this.tableLayoutPanel8.ColumnCount = 4;
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6.030702F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.21491F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.79528F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel12, 2, 1);
-            this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel5, 1, 1);
-            this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel14, 1, 0);
-            this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
-            this.tableLayoutPanel8.RowCount = 3;
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.89509F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.90438F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(933, 753);
-            this.tableLayoutPanel8.TabIndex = 9;
-            // 
-            // tableLayoutPanel12
-            // 
-            this.tableLayoutPanel12.ColumnCount = 1;
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel12.Controls.Add(this.Btn_abrir, 0, 0);
-            this.tableLayoutPanel12.Controls.Add(this.Btn_validar, 0, 1);
-            this.tableLayoutPanel12.Controls.Add(this.Btn_rechazar, 0, 2);
-            this.tableLayoutPanel12.Controls.Add(this.Btn_abrirf, 0, 3);
-            this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel12.Location = new System.Drawing.Point(671, 253);
-            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
-            this.tableLayoutPanel12.RowCount = 4;
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel12.Size = new System.Drawing.Size(238, 316);
-            this.tableLayoutPanel12.TabIndex = 6;
-            // 
-            // Btn_abrir
-            // 
-            this.Btn_abrir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.Btn_abrir.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Btn_abrir.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.Btn_abrir.ForeColor = System.Drawing.Color.White;
-            this.Btn_abrir.Location = new System.Drawing.Point(3, 3);
-            this.Btn_abrir.Name = "Btn_abrir";
-            this.Btn_abrir.Size = new System.Drawing.Size(232, 73);
-            this.Btn_abrir.TabIndex = 0;
-            this.Btn_abrir.Text = "Abrir Documento";
-            this.Btn_abrir.UseVisualStyleBackColor = false;
-            // 
-            // Btn_validar
-            // 
-            this.Btn_validar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.Btn_validar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Btn_validar.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.Btn_validar.ForeColor = System.Drawing.Color.White;
-            this.Btn_validar.Location = new System.Drawing.Point(3, 82);
-            this.Btn_validar.Name = "Btn_validar";
-            this.Btn_validar.Size = new System.Drawing.Size(232, 73);
-            this.Btn_validar.TabIndex = 1;
-            this.Btn_validar.Text = "Validar Documento";
-            this.Btn_validar.UseVisualStyleBackColor = false;
-            // 
-            // Btn_rechazar
-            // 
-            this.Btn_rechazar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.Btn_rechazar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Btn_rechazar.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.Btn_rechazar.ForeColor = System.Drawing.Color.White;
-            this.Btn_rechazar.Location = new System.Drawing.Point(3, 161);
-            this.Btn_rechazar.Name = "Btn_rechazar";
-            this.Btn_rechazar.Size = new System.Drawing.Size(232, 73);
-            this.Btn_rechazar.TabIndex = 2;
-            this.Btn_rechazar.Text = "Rechazar Documento";
-            this.Btn_rechazar.UseVisualStyleBackColor = false;
-            // 
-            // Btn_abrirf
-            // 
-            this.Btn_abrirf.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.Btn_abrirf.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Btn_abrirf.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.Btn_abrirf.ForeColor = System.Drawing.Color.White;
-            this.Btn_abrirf.Location = new System.Drawing.Point(3, 240);
-            this.Btn_abrirf.Name = "Btn_abrirf";
-            this.Btn_abrirf.Size = new System.Drawing.Size(232, 73);
-            this.Btn_abrirf.TabIndex = 1;
-            this.Btn_abrirf.Text = "Abrir Fotografia";
-            this.Btn_abrirf.UseVisualStyleBackColor = false;
-            // 
-            // tableLayoutPanel5
-            // 
-            this.tableLayoutPanel5.ColumnCount = 3;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 46.62162F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.68919F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 1.4377F));
-            this.tableLayoutPanel5.Controls.Add(this.Pic_foto, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.tableLayoutPanel11, 1, 0);
-            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(58, 253);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 1;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(607, 316);
-            this.tableLayoutPanel5.TabIndex = 7;
-            // 
-            // Pic_foto
-            // 
-            this.Pic_foto.BackgroundImage = global::PanelValidacion.Properties.Resources.dpi_0;
-            this.Pic_foto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Pic_foto.Location = new System.Drawing.Point(3, 3);
-            this.Pic_foto.Name = "Pic_foto";
-            this.Pic_foto.Size = new System.Drawing.Size(272, 238);
-            this.Pic_foto.TabIndex = 0;
-            this.Pic_foto.TabStop = false;
-            // 
-            // tableLayoutPanel11
-            // 
-            this.tableLayoutPanel11.ColumnCount = 3;
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
-            this.tableLayoutPanel11.Controls.Add(this.label2, 0, 0);
-            this.tableLayoutPanel11.Controls.Add(this.Lbb_dpi2, 1, 0);
-            this.tableLayoutPanel11.Controls.Add(this.btn_verif, 2, 0);
-            this.tableLayoutPanel11.Controls.Add(this.label4, 0, 2);
-            this.tableLayoutPanel11.Controls.Add(this.Lbl_dpiprog, 1, 2);
-            this.tableLayoutPanel11.Controls.Add(this.Lbl_dpiprog2, 1, 4);
-            this.tableLayoutPanel11.Controls.Add(this.label10, 0, 4);
-            this.tableLayoutPanel11.Controls.Add(this.label5, 0, 6);
-            this.tableLayoutPanel11.Controls.Add(this.Lbl_nombre2, 1, 6);
-            this.tableLayoutPanel11.Controls.Add(this.label7, 0, 8);
-            this.tableLayoutPanel11.Controls.Add(this.Lbl_apellidos, 1, 8);
-            this.tableLayoutPanel11.Controls.Add(this.Lbl_sexo, 1, 10);
-            this.tableLayoutPanel11.Controls.Add(this.label9, 0, 10);
-            this.tableLayoutPanel11.Controls.Add(this.label8, 0, 12);
-            this.tableLayoutPanel11.Controls.Add(this.Lbl_estado, 1, 12);
-            this.tableLayoutPanel11.Controls.Add(this.button3, 2, 2);
-            this.tableLayoutPanel11.Controls.Add(this.button4, 2, 4);
-            this.tableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel11.Location = new System.Drawing.Point(286, 3);
-            this.tableLayoutPanel11.Name = "tableLayoutPanel11";
-            this.tableLayoutPanel11.RowCount = 13;
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999999F));
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999999F));
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999999F));
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999999F));
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999999F));
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999999F));
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999999F));
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999999F));
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999999F));
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999999F));
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(308, 310);
-            this.tableLayoutPanel11.TabIndex = 0;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "DPI";
-            // 
-            // Lbb_dpi2
-            // 
-            this.Lbb_dpi2.AutoSize = true;
-            this.Lbb_dpi2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbb_dpi2.Location = new System.Drawing.Point(89, 0);
-            this.Lbb_dpi2.Name = "Lbb_dpi2";
-            this.Lbb_dpi2.Size = new System.Drawing.Size(69, 20);
-            this.Lbb_dpi2.TabIndex = 9;
-            this.Lbb_dpi2.Text = "Invalido";
-            // 
-            // btn_verif
-            // 
-            this.btn_verif.BackColor = System.Drawing.Color.LimeGreen;
-            this.btn_verif.Location = new System.Drawing.Point(273, 3);
-            this.btn_verif.Name = "btn_verif";
-            this.btn_verif.Size = new System.Drawing.Size(32, 17);
-            this.btn_verif.TabIndex = 15;
-            this.btn_verif.UseVisualStyleBackColor = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(3, 48);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(34, 20);
-            this.label4.TabIndex = 16;
-            this.label4.Text = "DPI";
-            // 
-            // Lbl_dpiprog
-            // 
-            this.Lbl_dpiprog.AutoSize = true;
-            this.Lbl_dpiprog.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_dpiprog.Location = new System.Drawing.Point(89, 48);
-            this.Lbl_dpiprog.Name = "Lbl_dpiprog";
-            this.Lbl_dpiprog.Size = new System.Drawing.Size(69, 20);
-            this.Lbl_dpiprog.TabIndex = 17;
-            this.Lbl_dpiprog.Text = "Invalido";
-            // 
-            // Lbl_dpiprog2
-            // 
-            this.Lbl_dpiprog2.AutoSize = true;
-            this.Lbl_dpiprog2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_dpiprog2.Location = new System.Drawing.Point(89, 96);
-            this.Lbl_dpiprog2.Name = "Lbl_dpiprog2";
-            this.Lbl_dpiprog2.Size = new System.Drawing.Size(69, 20);
-            this.Lbl_dpiprog2.TabIndex = 19;
-            this.Lbl_dpiprog2.Text = "Invalido";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(3, 96);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(34, 20);
-            this.label10.TabIndex = 18;
-            this.label10.Text = "DPI";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(3, 144);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(74, 20);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Nombres";
-            // 
-            // Lbl_nombre2
-            // 
-            this.Lbl_nombre2.AutoSize = true;
-            this.Lbl_nombre2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_nombre2.Location = new System.Drawing.Point(89, 144);
-            this.Lbl_nombre2.Name = "Lbl_nombre2";
-            this.Lbl_nombre2.Size = new System.Drawing.Size(69, 20);
-            this.Lbl_nombre2.TabIndex = 11;
-            this.Lbl_nombre2.Text = "Invalido";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(3, 192);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(75, 20);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "Apellidos";
-            // 
-            // Lbl_apellidos
-            // 
-            this.Lbl_apellidos.AutoSize = true;
-            this.Lbl_apellidos.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_apellidos.Location = new System.Drawing.Point(89, 192);
-            this.Lbl_apellidos.Name = "Lbl_apellidos";
-            this.Lbl_apellidos.Size = new System.Drawing.Size(69, 20);
-            this.Lbl_apellidos.TabIndex = 12;
-            this.Lbl_apellidos.Text = "Invalido";
-            // 
-            // Lbl_sexo
-            // 
-            this.Lbl_sexo.AutoSize = true;
-            this.Lbl_sexo.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_sexo.Location = new System.Drawing.Point(89, 240);
-            this.Lbl_sexo.Name = "Lbl_sexo";
-            this.Lbl_sexo.Size = new System.Drawing.Size(69, 20);
-            this.Lbl_sexo.TabIndex = 13;
-            this.Lbl_sexo.Text = "Invalido";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(3, 240);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(43, 20);
-            this.label9.TabIndex = 5;
-            this.label9.Text = "Sexo";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(3, 280);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(62, 30);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Estado Civll";
-            // 
-            // Lbl_estado
-            // 
-            this.Lbl_estado.AutoSize = true;
-            this.Lbl_estado.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_estado.Location = new System.Drawing.Point(89, 280);
-            this.Lbl_estado.Name = "Lbl_estado";
-            this.Lbl_estado.Size = new System.Drawing.Size(69, 20);
-            this.Lbl_estado.TabIndex = 14;
-            this.Lbl_estado.Text = "Invalido";
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.LimeGreen;
-            this.button3.Location = new System.Drawing.Point(273, 51);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(32, 16);
-            this.button3.TabIndex = 20;
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.LimeGreen;
-            this.button4.Location = new System.Drawing.Point(273, 99);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(32, 16);
-            this.button4.TabIndex = 21;
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // tableLayoutPanel14
-            // 
-            this.tableLayoutPanel14.ColumnCount = 3;
-            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.87479F));
-            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.24053F));
-            this.tableLayoutPanel14.Controls.Add(this.label18, 1, 1);
-            this.tableLayoutPanel14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel14.Location = new System.Drawing.Point(58, 3);
-            this.tableLayoutPanel14.Name = "tableLayoutPanel14";
-            this.tableLayoutPanel14.RowCount = 3;
-            this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.21428F));
-            this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 76.78571F));
-            this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel14.Size = new System.Drawing.Size(607, 244);
-            this.tableLayoutPanel14.TabIndex = 9;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label18.Font = new System.Drawing.Font("Century Gothic", 20.75F, System.Drawing.FontStyle.Bold);
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.label18.Location = new System.Drawing.Point(63, 51);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(405, 172);
-            this.label18.TabIndex = 8;
-            this.label18.Text = "Validación de DPI";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // tableLayoutPanel15
-            // 
-            this.tableLayoutPanel15.ColumnCount = 4;
-            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.049985F));
-            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.88686F));
-            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.06315F));
-            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel15.Controls.Add(this.tableLayoutPanel16, 2, 1);
-            this.tableLayoutPanel15.Controls.Add(this.tableLayoutPanel17, 1, 1);
-            this.tableLayoutPanel15.Controls.Add(this.tableLayoutPanel23, 1, 0);
-            this.tableLayoutPanel15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel15.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel15.Name = "tableLayoutPanel15";
-            this.tableLayoutPanel15.RowCount = 3;
-            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 26.32979F));
-            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40.29255F));
-            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.37766F));
-            this.tableLayoutPanel15.Size = new System.Drawing.Size(933, 753);
-            this.tableLayoutPanel15.TabIndex = 11;
-            // 
-            // tableLayoutPanel16
-            // 
-            this.tableLayoutPanel16.ColumnCount = 1;
-            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel16.Controls.Add(this.button11, 0, 4);
-            this.tableLayoutPanel16.Controls.Add(this.button6, 0, 1);
-            this.tableLayoutPanel16.Controls.Add(this.button7, 0, 0);
-            this.tableLayoutPanel16.Controls.Add(this.button8, 0, 2);
-            this.tableLayoutPanel16.Controls.Add(this.button9, 0, 3);
-            this.tableLayoutPanel16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel16.Location = new System.Drawing.Point(668, 201);
-            this.tableLayoutPanel16.Name = "tableLayoutPanel16";
-            this.tableLayoutPanel16.RowCount = 5;
-            this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel16.Size = new System.Drawing.Size(241, 297);
-            this.tableLayoutPanel16.TabIndex = 6;
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.button11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button11.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.button11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button11.Location = new System.Drawing.Point(3, 239);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(235, 55);
-            this.button11.TabIndex = 5;
-            this.button11.Text = "Regresar Al Documento Anterior";
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button6.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.button6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button6.Location = new System.Drawing.Point(3, 62);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(235, 53);
-            this.button6.TabIndex = 4;
-            this.button6.Text = "Validar Documento";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.button7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button7.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.button7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button7.Location = new System.Drawing.Point(3, 3);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(235, 53);
-            this.button7.TabIndex = 3;
-            this.button7.Text = "Abrir Documento";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.button8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button8.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.button8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button8.Location = new System.Drawing.Point(3, 121);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(235, 53);
-            this.button8.TabIndex = 2;
-            this.button8.Text = "Rechazar Documento";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.button9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button9.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.button9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button9.Location = new System.Drawing.Point(3, 180);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(235, 53);
-            this.button9.TabIndex = 1;
-            this.button9.Text = "Abrir Fotografia";
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // tableLayoutPanel17
-            // 
-            this.tableLayoutPanel17.ColumnCount = 3;
-            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.05602F));
-            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.29654F));
-            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 1.4377F));
-            this.tableLayoutPanel17.Controls.Add(this.tableLayoutPanel18, 1, 0);
-            this.tableLayoutPanel17.Controls.Add(this.tableLayoutPanel19, 0, 0);
-            this.tableLayoutPanel17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel17.Location = new System.Drawing.Point(49, 201);
-            this.tableLayoutPanel17.Name = "tableLayoutPanel17";
-            this.tableLayoutPanel17.RowCount = 1;
-            this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel17.Size = new System.Drawing.Size(613, 297);
-            this.tableLayoutPanel17.TabIndex = 7;
-            // 
-            // tableLayoutPanel18
-            // 
-            this.tableLayoutPanel18.ColumnCount = 3;
-            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 174F));
-            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 48F));
-            this.tableLayoutPanel18.Controls.Add(this.label19, 0, 5);
-            this.tableLayoutPanel18.Controls.Add(this.Lbl_estadobol, 1, 5);
-            this.tableLayoutPanel18.Controls.Add(this.label26, 0, 3);
-            this.tableLayoutPanel18.Controls.Add(this.Lbl_fecha, 1, 3);
-            this.tableLayoutPanel18.Controls.Add(this.label28, 0, 1);
-            this.tableLayoutPanel18.Controls.Add(this.Lbl_noBoleta, 1, 1);
-            this.tableLayoutPanel18.Controls.Add(this.button2, 2, 1);
-            this.tableLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel18.Location = new System.Drawing.Point(236, 3);
-            this.tableLayoutPanel18.Name = "tableLayoutPanel18";
-            this.tableLayoutPanel18.RowCount = 6;
-            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
-            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
-            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
-            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
-            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
-            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
-            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel18.Size = new System.Drawing.Size(364, 291);
-            this.tableLayoutPanel18.TabIndex = 0;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Century Gothic", 7.8F);
-            this.label19.Location = new System.Drawing.Point(3, 240);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(56, 19);
-            this.label19.TabIndex = 1;
-            this.label19.Text = "Estado";
-            // 
-            // Lbl_estadobol
-            // 
-            this.Lbl_estadobol.AutoSize = true;
-            this.Lbl_estadobol.Font = new System.Drawing.Font("Century Gothic", 7.8F);
-            this.Lbl_estadobol.Location = new System.Drawing.Point(145, 240);
-            this.Lbl_estadobol.Name = "Lbl_estadobol";
-            this.Lbl_estadobol.Size = new System.Drawing.Size(64, 19);
-            this.Lbl_estadobol.TabIndex = 11;
-            this.Lbl_estadobol.Text = "Invalido";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Century Gothic", 7.8F);
-            this.label26.Location = new System.Drawing.Point(3, 144);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(131, 19);
-            this.label26.TabIndex = 8;
-            this.label26.Text = "Fecha de emision";
-            // 
-            // Lbl_fecha
-            // 
-            this.Lbl_fecha.AutoSize = true;
-            this.Lbl_fecha.Font = new System.Drawing.Font("Century Gothic", 7.8F);
-            this.Lbl_fecha.Location = new System.Drawing.Point(145, 144);
-            this.Lbl_fecha.Name = "Lbl_fecha";
-            this.Lbl_fecha.Size = new System.Drawing.Size(64, 19);
-            this.Lbl_fecha.TabIndex = 10;
-            this.Lbl_fecha.Text = "Invalido";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Century Gothic", 7.8F);
-            this.label28.Location = new System.Drawing.Point(3, 48);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(78, 19);
-            this.label28.TabIndex = 0;
-            this.label28.Text = "No boleta";
-            // 
-            // Lbl_noBoleta
-            // 
-            this.Lbl_noBoleta.AutoSize = true;
-            this.Lbl_noBoleta.Font = new System.Drawing.Font("Century Gothic", 7.8F);
-            this.Lbl_noBoleta.Location = new System.Drawing.Point(145, 48);
-            this.Lbl_noBoleta.Name = "Lbl_noBoleta";
-            this.Lbl_noBoleta.Size = new System.Drawing.Size(64, 19);
-            this.Lbl_noBoleta.TabIndex = 9;
-            this.Lbl_noBoleta.Text = "Invalido";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.LimeGreen;
-            this.button2.Enabled = false;
-            this.button2.Location = new System.Drawing.Point(319, 51);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(42, 16);
-            this.button2.TabIndex = 16;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // tableLayoutPanel19
-            // 
-            this.tableLayoutPanel19.ColumnCount = 1;
-            this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel19.Controls.Add(this.tableLayoutPanel20, 0, 1);
-            this.tableLayoutPanel19.Controls.Add(this.tableLayoutPanel21, 0, 0);
-            this.tableLayoutPanel19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel19.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel19.Name = "tableLayoutPanel19";
-            this.tableLayoutPanel19.RowCount = 2;
-            this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 69.07217F));
-            this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.92784F));
-            this.tableLayoutPanel19.Size = new System.Drawing.Size(227, 291);
-            this.tableLayoutPanel19.TabIndex = 1;
-            // 
-            // tableLayoutPanel20
-            // 
-            this.tableLayoutPanel20.ColumnCount = 3;
-            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36.30952F));
-            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 63.69048F));
-            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 42F));
-            this.tableLayoutPanel20.Controls.Add(this.label30, 1, 0);
-            this.tableLayoutPanel20.Location = new System.Drawing.Point(3, 203);
-            this.tableLayoutPanel20.Name = "tableLayoutPanel20";
-            this.tableLayoutPanel20.RowCount = 1;
-            this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel20.Size = new System.Drawing.Size(215, 84);
-            this.tableLayoutPanel20.TabIndex = 1;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label30.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(65, 0);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(104, 84);
-            this.label30.TabIndex = 9;
-            this.label30.Text = "Vista Previa";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // tableLayoutPanel21
-            // 
-            this.tableLayoutPanel21.ColumnCount = 3;
-            this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.793815F));
-            this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 90.20618F));
-            this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 15F));
-            this.tableLayoutPanel21.Controls.Add(this.pictureBox4, 1, 0);
-            this.tableLayoutPanel21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel21.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel21.Name = "tableLayoutPanel21";
-            this.tableLayoutPanel21.RowCount = 1;
-            this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel21.Size = new System.Drawing.Size(221, 194);
-            this.tableLayoutPanel21.TabIndex = 2;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImage = global::PanelValidacion.Properties.Resources.boleta_depósito_SOCIEDAD_paso_2_2;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(23, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(179, 188);
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
-            // tableLayoutPanel23
-            // 
-            this.tableLayoutPanel23.ColumnCount = 3;
-            this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.87479F));
-            this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.24053F));
-            this.tableLayoutPanel23.Controls.Add(this.label32, 1, 1);
-            this.tableLayoutPanel23.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel23.Location = new System.Drawing.Point(49, 3);
-            this.tableLayoutPanel23.Name = "tableLayoutPanel23";
-            this.tableLayoutPanel23.RowCount = 3;
-            this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.21428F));
-            this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 76.78571F));
-            this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel23.Size = new System.Drawing.Size(613, 192);
-            this.tableLayoutPanel23.TabIndex = 11;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label32.Font = new System.Drawing.Font("Century Gothic", 20.75F, System.Drawing.FontStyle.Bold);
-            this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.label32.Location = new System.Drawing.Point(64, 39);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(409, 132);
-            this.label32.TabIndex = 8;
-            this.label32.Text = "Validación de Boleta";
-            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // tableLayoutPanel25
             // 
             this.tableLayoutPanel25.ColumnCount = 1;
@@ -1071,7 +341,7 @@
             this.tableLayoutPanel24.ColumnCount = 3;
             this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.05744F));
             this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 83.94256F));
-            this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 135F));
+            this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 140F));
             this.tableLayoutPanel24.Controls.Add(this.label33, 1, 0);
             this.tableLayoutPanel24.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel24.Location = new System.Drawing.Point(3, 3);
@@ -1087,9 +357,9 @@
             this.label33.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label33.Font = new System.Drawing.Font("Century Gothic", 20.75F, System.Drawing.FontStyle.Bold);
             this.label33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.label33.Location = new System.Drawing.Point(131, 0);
+            this.label33.Location = new System.Drawing.Point(130, 0);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(663, 139);
+            this.label33.Size = new System.Drawing.Size(659, 139);
             this.label33.TabIndex = 1;
             this.label33.Text = "Estatus Legal";
             this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1128,7 +398,7 @@
             this.tableLayoutPanel33.ColumnCount = 3;
             this.tableLayoutPanel33.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 37.46032F));
             this.tableLayoutPanel33.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 62.53968F));
-            this.tableLayoutPanel33.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+            this.tableLayoutPanel33.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 29F));
             this.tableLayoutPanel33.Controls.Add(this.label34, 1, 0);
             this.tableLayoutPanel33.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel33.Location = new System.Drawing.Point(3, 3);
@@ -1144,9 +414,9 @@
             this.label34.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label34.Font = new System.Drawing.Font("Century Gothic", 20.75F, System.Drawing.FontStyle.Bold);
             this.label34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.label34.Location = new System.Drawing.Point(239, 0);
+            this.label34.Location = new System.Drawing.Point(237, 0);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(388, 64);
+            this.label34.Size = new System.Drawing.Size(385, 64);
             this.label34.TabIndex = 1;
             this.label34.Text = "Datos De La Persona";
             this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1156,7 +426,7 @@
             this.tableLayoutPanel32.ColumnCount = 3;
             this.tableLayoutPanel32.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 69.8718F));
             this.tableLayoutPanel32.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.1282F));
-            this.tableLayoutPanel32.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 316F));
+            this.tableLayoutPanel32.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 321F));
             this.tableLayoutPanel32.Controls.Add(this.Lbl_dpi_estatus, 1, 0);
             this.tableLayoutPanel32.Controls.Add(this.Lbl_nombre_estatus, 1, 2);
             this.tableLayoutPanel32.Controls.Add(this.Lbl_apellidos_estatus, 1, 4);
@@ -1183,7 +453,7 @@
             // 
             this.Lbl_dpi_estatus.AutoSize = true;
             this.Lbl_dpi_estatus.Font = new System.Drawing.Font("Century Gothic", 7.8F);
-            this.Lbl_dpi_estatus.Location = new System.Drawing.Point(239, 0);
+            this.Lbl_dpi_estatus.Location = new System.Drawing.Point(236, 0);
             this.Lbl_dpi_estatus.Name = "Lbl_dpi_estatus";
             this.Lbl_dpi_estatus.Size = new System.Drawing.Size(30, 19);
             this.Lbl_dpi_estatus.TabIndex = 1;
@@ -1193,7 +463,7 @@
             // 
             this.Lbl_nombre_estatus.AutoSize = true;
             this.Lbl_nombre_estatus.Font = new System.Drawing.Font("Century Gothic", 7.8F);
-            this.Lbl_nombre_estatus.Location = new System.Drawing.Point(239, 62);
+            this.Lbl_nombre_estatus.Location = new System.Drawing.Point(236, 62);
             this.Lbl_nombre_estatus.Name = "Lbl_nombre_estatus";
             this.Lbl_nombre_estatus.Size = new System.Drawing.Size(64, 19);
             this.Lbl_nombre_estatus.TabIndex = 0;
@@ -1203,7 +473,7 @@
             // 
             this.Lbl_apellidos_estatus.AutoSize = true;
             this.Lbl_apellidos_estatus.Font = new System.Drawing.Font("Century Gothic", 7.8F);
-            this.Lbl_apellidos_estatus.Location = new System.Drawing.Point(239, 124);
+            this.Lbl_apellidos_estatus.Location = new System.Drawing.Point(236, 124);
             this.Lbl_apellidos_estatus.Name = "Lbl_apellidos_estatus";
             this.Lbl_apellidos_estatus.Size = new System.Drawing.Size(70, 19);
             this.Lbl_apellidos_estatus.TabIndex = 2;
@@ -1213,7 +483,7 @@
             // 
             this.Lbl_estatus.AutoSize = true;
             this.Lbl_estatus.Font = new System.Drawing.Font("Century Gothic", 7.8F);
-            this.Lbl_estatus.Location = new System.Drawing.Point(239, 186);
+            this.Lbl_estatus.Location = new System.Drawing.Point(236, 186);
             this.Lbl_estatus.Name = "Lbl_estatus";
             this.Lbl_estatus.Size = new System.Drawing.Size(56, 19);
             this.Lbl_estatus.TabIndex = 3;
@@ -1223,7 +493,7 @@
             // 
             this.Lbl_Dpi2.AutoSize = true;
             this.Lbl_Dpi2.Font = new System.Drawing.Font("Century Gothic", 7.8F);
-            this.Lbl_Dpi2.Location = new System.Drawing.Point(341, 0);
+            this.Lbl_Dpi2.Location = new System.Drawing.Point(336, 0);
             this.Lbl_Dpi2.Name = "Lbl_Dpi2";
             this.Lbl_Dpi2.Size = new System.Drawing.Size(64, 19);
             this.Lbl_Dpi2.TabIndex = 4;
@@ -1233,7 +503,7 @@
             // 
             this.Lbl_nombres2.AutoSize = true;
             this.Lbl_nombres2.Font = new System.Drawing.Font("Century Gothic", 7.8F);
-            this.Lbl_nombres2.Location = new System.Drawing.Point(341, 62);
+            this.Lbl_nombres2.Location = new System.Drawing.Point(336, 62);
             this.Lbl_nombres2.Name = "Lbl_nombres2";
             this.Lbl_nombres2.Size = new System.Drawing.Size(64, 19);
             this.Lbl_nombres2.TabIndex = 5;
@@ -1243,7 +513,7 @@
             // 
             this.Lbl_apellidos2.AutoSize = true;
             this.Lbl_apellidos2.Font = new System.Drawing.Font("Century Gothic", 7.8F);
-            this.Lbl_apellidos2.Location = new System.Drawing.Point(341, 124);
+            this.Lbl_apellidos2.Location = new System.Drawing.Point(336, 124);
             this.Lbl_apellidos2.Name = "Lbl_apellidos2";
             this.Lbl_apellidos2.Size = new System.Drawing.Size(64, 19);
             this.Lbl_apellidos2.TabIndex = 6;
@@ -1253,7 +523,7 @@
             // 
             this.Lbl_estatus2.AutoSize = true;
             this.Lbl_estatus2.Font = new System.Drawing.Font("Century Gothic", 7.8F);
-            this.Lbl_estatus2.Location = new System.Drawing.Point(341, 186);
+            this.Lbl_estatus2.Location = new System.Drawing.Point(336, 186);
             this.Lbl_estatus2.Name = "Lbl_estatus2";
             this.Lbl_estatus2.Size = new System.Drawing.Size(64, 19);
             this.Lbl_estatus2.TabIndex = 7;
@@ -1338,6 +608,7 @@
             this.button12.TabIndex = 0;
             this.button12.Text = "Aceptar";
             this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.Button12_Click_1);
             // 
             // tableLayoutPanel30
             // 
@@ -1365,6 +636,606 @@
             this.button13.TabIndex = 0;
             this.button13.Text = "Regresar";
             this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.Button13_Click_1);
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.tableLayoutPanel15);
+            this.tabPage2.Location = new System.Drawing.Point(4, 28);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(939, 759);
+            this.tabPage2.TabIndex = 5;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel15
+            // 
+            this.tableLayoutPanel15.ColumnCount = 4;
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.049985F));
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.88686F));
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.06315F));
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.tableLayoutPanel15.Controls.Add(this.tableLayoutPanel16, 2, 1);
+            this.tableLayoutPanel15.Controls.Add(this.tableLayoutPanel17, 1, 1);
+            this.tableLayoutPanel15.Controls.Add(this.tableLayoutPanel23, 1, 0);
+            this.tableLayoutPanel15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel15.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel15.Name = "tableLayoutPanel15";
+            this.tableLayoutPanel15.RowCount = 3;
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 26.32979F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40.29255F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.37766F));
+            this.tableLayoutPanel15.Size = new System.Drawing.Size(933, 753);
+            this.tableLayoutPanel15.TabIndex = 11;
+            // 
+            // tableLayoutPanel16
+            // 
+            this.tableLayoutPanel16.ColumnCount = 1;
+            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel16.Controls.Add(this.button6, 0, 0);
+            this.tableLayoutPanel16.Controls.Add(this.button8, 0, 1);
+            this.tableLayoutPanel16.Controls.Add(this.button11, 0, 2);
+            this.tableLayoutPanel16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel16.Location = new System.Drawing.Point(663, 201);
+            this.tableLayoutPanel16.Name = "tableLayoutPanel16";
+            this.tableLayoutPanel16.RowCount = 3;
+            this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel16.Size = new System.Drawing.Size(239, 297);
+            this.tableLayoutPanel16.TabIndex = 6;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
+            this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button6.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.button6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button6.Location = new System.Drawing.Point(3, 3);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(233, 93);
+            this.button6.TabIndex = 4;
+            this.button6.Text = "Validar Documento";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.Button6_Click_1);
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
+            this.button8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button8.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.button8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button8.Location = new System.Drawing.Point(3, 102);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(233, 93);
+            this.button8.TabIndex = 2;
+            this.button8.Text = "Rechazar Documento";
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.Button8_Click);
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
+            this.button11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button11.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.button11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button11.Location = new System.Drawing.Point(3, 201);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(233, 93);
+            this.button11.TabIndex = 5;
+            this.button11.Text = "Regresar Al Documento Anterior";
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.Button11_Click);
+            // 
+            // tableLayoutPanel17
+            // 
+            this.tableLayoutPanel17.ColumnCount = 3;
+            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.05602F));
+            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.29654F));
+            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 1.4377F));
+            this.tableLayoutPanel17.Controls.Add(this.tableLayoutPanel18, 1, 0);
+            this.tableLayoutPanel17.Controls.Add(this.tableLayoutPanel19, 0, 0);
+            this.tableLayoutPanel17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel17.Location = new System.Drawing.Point(48, 201);
+            this.tableLayoutPanel17.Name = "tableLayoutPanel17";
+            this.tableLayoutPanel17.RowCount = 1;
+            this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel17.Size = new System.Drawing.Size(609, 297);
+            this.tableLayoutPanel17.TabIndex = 7;
+            // 
+            // tableLayoutPanel18
+            // 
+            this.tableLayoutPanel18.ColumnCount = 3;
+            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 174F));
+            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel18.Controls.Add(this.label19, 0, 5);
+            this.tableLayoutPanel18.Controls.Add(this.Lbl_estadobol, 1, 5);
+            this.tableLayoutPanel18.Controls.Add(this.label26, 0, 3);
+            this.tableLayoutPanel18.Controls.Add(this.Lbl_fecha, 1, 3);
+            this.tableLayoutPanel18.Controls.Add(this.label28, 0, 1);
+            this.tableLayoutPanel18.Controls.Add(this.Lbl_noBoleta, 1, 1);
+            this.tableLayoutPanel18.Controls.Add(this.button2, 2, 1);
+            this.tableLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel18.Location = new System.Drawing.Point(235, 3);
+            this.tableLayoutPanel18.Name = "tableLayoutPanel18";
+            this.tableLayoutPanel18.RowCount = 6;
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel18.Size = new System.Drawing.Size(361, 291);
+            this.tableLayoutPanel18.TabIndex = 0;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Century Gothic", 7.8F);
+            this.label19.Location = new System.Drawing.Point(3, 240);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(56, 19);
+            this.label19.TabIndex = 1;
+            this.label19.Text = "Estado";
+            // 
+            // Lbl_estadobol
+            // 
+            this.Lbl_estadobol.AutoSize = true;
+            this.Lbl_estadobol.Font = new System.Drawing.Font("Century Gothic", 7.8F);
+            this.Lbl_estadobol.Location = new System.Drawing.Point(142, 240);
+            this.Lbl_estadobol.Name = "Lbl_estadobol";
+            this.Lbl_estadobol.Size = new System.Drawing.Size(64, 19);
+            this.Lbl_estadobol.TabIndex = 11;
+            this.Lbl_estadobol.Text = "Invalido";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Century Gothic", 7.8F);
+            this.label26.Location = new System.Drawing.Point(3, 144);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(131, 19);
+            this.label26.TabIndex = 8;
+            this.label26.Text = "Fecha de emision";
+            // 
+            // Lbl_fecha
+            // 
+            this.Lbl_fecha.AutoSize = true;
+            this.Lbl_fecha.Font = new System.Drawing.Font("Century Gothic", 7.8F);
+            this.Lbl_fecha.Location = new System.Drawing.Point(142, 144);
+            this.Lbl_fecha.Name = "Lbl_fecha";
+            this.Lbl_fecha.Size = new System.Drawing.Size(64, 19);
+            this.Lbl_fecha.TabIndex = 10;
+            this.Lbl_fecha.Text = "Invalido";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Century Gothic", 7.8F);
+            this.label28.Location = new System.Drawing.Point(3, 48);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(78, 19);
+            this.label28.TabIndex = 0;
+            this.label28.Text = "No boleta";
+            // 
+            // Lbl_noBoleta
+            // 
+            this.Lbl_noBoleta.AutoSize = true;
+            this.Lbl_noBoleta.Font = new System.Drawing.Font("Century Gothic", 7.8F);
+            this.Lbl_noBoleta.Location = new System.Drawing.Point(142, 48);
+            this.Lbl_noBoleta.Name = "Lbl_noBoleta";
+            this.Lbl_noBoleta.Size = new System.Drawing.Size(64, 19);
+            this.Lbl_noBoleta.TabIndex = 9;
+            this.Lbl_noBoleta.Text = "Invalido";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.LimeGreen;
+            this.button2.Enabled = false;
+            this.button2.Location = new System.Drawing.Point(316, 51);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(42, 16);
+            this.button2.TabIndex = 16;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // tableLayoutPanel19
+            // 
+            this.tableLayoutPanel19.ColumnCount = 1;
+            this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel19.Controls.Add(this.tableLayoutPanel20, 0, 1);
+            this.tableLayoutPanel19.Controls.Add(this.tableLayoutPanel21, 0, 0);
+            this.tableLayoutPanel19.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel19.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel19.Name = "tableLayoutPanel19";
+            this.tableLayoutPanel19.RowCount = 2;
+            this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 69.07217F));
+            this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.92784F));
+            this.tableLayoutPanel19.Size = new System.Drawing.Size(226, 291);
+            this.tableLayoutPanel19.TabIndex = 1;
+            // 
+            // tableLayoutPanel20
+            // 
+            this.tableLayoutPanel20.ColumnCount = 3;
+            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36.30952F));
+            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 63.69048F));
+            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 47F));
+            this.tableLayoutPanel20.Controls.Add(this.label30, 1, 0);
+            this.tableLayoutPanel20.Location = new System.Drawing.Point(3, 203);
+            this.tableLayoutPanel20.Name = "tableLayoutPanel20";
+            this.tableLayoutPanel20.RowCount = 1;
+            this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel20.Size = new System.Drawing.Size(215, 84);
+            this.tableLayoutPanel20.TabIndex = 1;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label30.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(63, 0);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(101, 84);
+            this.label30.TabIndex = 9;
+            this.label30.Text = "Vista Previa";
+            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tableLayoutPanel21
+            // 
+            this.tableLayoutPanel21.ColumnCount = 3;
+            this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.793815F));
+            this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 90.20618F));
+            this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel21.Controls.Add(this.pictureBox4, 1, 0);
+            this.tableLayoutPanel21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel21.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel21.Name = "tableLayoutPanel21";
+            this.tableLayoutPanel21.RowCount = 1;
+            this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel21.Size = new System.Drawing.Size(220, 194);
+            this.tableLayoutPanel21.TabIndex = 2;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = global::PanelValidacion.Properties.Resources.boleta_depósito_SOCIEDAD_paso_2_2;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Location = new System.Drawing.Point(22, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(174, 188);
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
+            // tableLayoutPanel23
+            // 
+            this.tableLayoutPanel23.ColumnCount = 3;
+            this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.87479F));
+            this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.24053F));
+            this.tableLayoutPanel23.Controls.Add(this.label32, 1, 1);
+            this.tableLayoutPanel23.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel23.Location = new System.Drawing.Point(48, 3);
+            this.tableLayoutPanel23.Name = "tableLayoutPanel23";
+            this.tableLayoutPanel23.RowCount = 3;
+            this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.21428F));
+            this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 76.78571F));
+            this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel23.Size = new System.Drawing.Size(609, 192);
+            this.tableLayoutPanel23.TabIndex = 11;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label32.Font = new System.Drawing.Font("Century Gothic", 20.75F, System.Drawing.FontStyle.Bold);
+            this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
+            this.label32.Location = new System.Drawing.Point(63, 39);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(406, 132);
+            this.label32.TabIndex = 8;
+            this.label32.Text = "Validación de Boleta";
+            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.tableLayoutPanel8);
+            this.tabPage4.Location = new System.Drawing.Point(4, 28);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(939, 759);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "v";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel8
+            // 
+            this.tableLayoutPanel8.ColumnCount = 4;
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6.030702F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.21491F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.79528F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 28F));
+            this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel12, 2, 1);
+            this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel5, 1, 1);
+            this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel14, 1, 0);
+            this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
+            this.tableLayoutPanel8.RowCount = 3;
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.89509F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.90438F));
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(933, 753);
+            this.tableLayoutPanel8.TabIndex = 9;
+            // 
+            // tableLayoutPanel12
+            // 
+            this.tableLayoutPanel12.ColumnCount = 1;
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel12.Controls.Add(this.Btn_validar, 0, 0);
+            this.tableLayoutPanel12.Controls.Add(this.Btn_rechazar, 0, 1);
+            this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel12.Location = new System.Drawing.Point(665, 253);
+            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
+            this.tableLayoutPanel12.RowCount = 2;
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(236, 316);
+            this.tableLayoutPanel12.TabIndex = 6;
+            // 
+            // Btn_validar
+            // 
+            this.Btn_validar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
+            this.Btn_validar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Btn_validar.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.Btn_validar.ForeColor = System.Drawing.Color.White;
+            this.Btn_validar.Location = new System.Drawing.Point(3, 3);
+            this.Btn_validar.Name = "Btn_validar";
+            this.Btn_validar.Size = new System.Drawing.Size(230, 152);
+            this.Btn_validar.TabIndex = 1;
+            this.Btn_validar.Text = "Validar Documento";
+            this.Btn_validar.UseVisualStyleBackColor = false;
+            this.Btn_validar.Click += new System.EventHandler(this.Btn_validar_Click_1);
+            // 
+            // Btn_rechazar
+            // 
+            this.Btn_rechazar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
+            this.Btn_rechazar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Btn_rechazar.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.Btn_rechazar.ForeColor = System.Drawing.Color.White;
+            this.Btn_rechazar.Location = new System.Drawing.Point(3, 161);
+            this.Btn_rechazar.Name = "Btn_rechazar";
+            this.Btn_rechazar.Size = new System.Drawing.Size(230, 152);
+            this.Btn_rechazar.TabIndex = 2;
+            this.Btn_rechazar.Text = "Rechazar Documento";
+            this.Btn_rechazar.UseVisualStyleBackColor = false;
+            this.Btn_rechazar.Click += new System.EventHandler(this.Btn_rechazar_Click);
+            // 
+            // tableLayoutPanel5
+            // 
+            this.tableLayoutPanel5.ColumnCount = 3;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 46.62162F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.68919F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 1.4377F));
+            this.tableLayoutPanel5.Controls.Add(this.Pic_foto, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.tableLayoutPanel11, 1, 0);
+            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(57, 253);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 1;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(602, 316);
+            this.tableLayoutPanel5.TabIndex = 7;
+            // 
+            // Pic_foto
+            // 
+            this.Pic_foto.BackgroundImage = global::PanelValidacion.Properties.Resources.dpi_0;
+            this.Pic_foto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Pic_foto.Location = new System.Drawing.Point(3, 3);
+            this.Pic_foto.Name = "Pic_foto";
+            this.Pic_foto.Size = new System.Drawing.Size(272, 238);
+            this.Pic_foto.TabIndex = 0;
+            this.Pic_foto.TabStop = false;
+            // 
+            // tableLayoutPanel11
+            // 
+            this.tableLayoutPanel11.ColumnCount = 3;
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+            this.tableLayoutPanel11.Controls.Add(this.label2, 0, 0);
+            this.tableLayoutPanel11.Controls.Add(this.Lbb_dpi2, 1, 0);
+            this.tableLayoutPanel11.Controls.Add(this.btn_verif, 2, 0);
+            this.tableLayoutPanel11.Controls.Add(this.label5, 0, 2);
+            this.tableLayoutPanel11.Controls.Add(this.Lbl_nombre2, 1, 2);
+            this.tableLayoutPanel11.Controls.Add(this.Lbl_apellidos, 1, 4);
+            this.tableLayoutPanel11.Controls.Add(this.label7, 0, 4);
+            this.tableLayoutPanel11.Controls.Add(this.Lbl_sexo, 1, 6);
+            this.tableLayoutPanel11.Controls.Add(this.label9, 0, 6);
+            this.tableLayoutPanel11.Controls.Add(this.Lbl_estado, 1, 8);
+            this.tableLayoutPanel11.Controls.Add(this.label8, 0, 8);
+            this.tableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(284, 3);
+            this.tableLayoutPanel11.Name = "tableLayoutPanel11";
+            this.tableLayoutPanel11.RowCount = 10;
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999999F));
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999999F));
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999999F));
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999999F));
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999999F));
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999999F));
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999999F));
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999999F));
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999999F));
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999999F));
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(305, 310);
+            this.tableLayoutPanel11.TabIndex = 0;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(3, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(34, 20);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "DPI";
+            // 
+            // Lbb_dpi2
+            // 
+            this.Lbb_dpi2.AutoSize = true;
+            this.Lbb_dpi2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbb_dpi2.Location = new System.Drawing.Point(86, 0);
+            this.Lbb_dpi2.Name = "Lbb_dpi2";
+            this.Lbb_dpi2.Size = new System.Drawing.Size(69, 20);
+            this.Lbb_dpi2.TabIndex = 9;
+            this.Lbb_dpi2.Text = "Invalido";
+            // 
+            // btn_verif
+            // 
+            this.btn_verif.BackColor = System.Drawing.Color.LimeGreen;
+            this.btn_verif.Location = new System.Drawing.Point(270, 3);
+            this.btn_verif.Name = "btn_verif";
+            this.btn_verif.Size = new System.Drawing.Size(32, 17);
+            this.btn_verif.TabIndex = 15;
+            this.btn_verif.UseVisualStyleBackColor = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(3, 60);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(74, 20);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Nombres";
+            // 
+            // Lbl_nombre2
+            // 
+            this.Lbl_nombre2.AutoSize = true;
+            this.Lbl_nombre2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_nombre2.Location = new System.Drawing.Point(86, 60);
+            this.Lbl_nombre2.Name = "Lbl_nombre2";
+            this.Lbl_nombre2.Size = new System.Drawing.Size(69, 20);
+            this.Lbl_nombre2.TabIndex = 11;
+            this.Lbl_nombre2.Text = "Invalido";
+            // 
+            // Lbl_apellidos
+            // 
+            this.Lbl_apellidos.AutoSize = true;
+            this.Lbl_apellidos.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_apellidos.Location = new System.Drawing.Point(86, 120);
+            this.Lbl_apellidos.Name = "Lbl_apellidos";
+            this.Lbl_apellidos.Size = new System.Drawing.Size(69, 20);
+            this.Lbl_apellidos.TabIndex = 12;
+            this.Lbl_apellidos.Text = "Invalido";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(3, 120);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(75, 20);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "Apellidos";
+            // 
+            // Lbl_sexo
+            // 
+            this.Lbl_sexo.AutoSize = true;
+            this.Lbl_sexo.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_sexo.Location = new System.Drawing.Point(86, 180);
+            this.Lbl_sexo.Name = "Lbl_sexo";
+            this.Lbl_sexo.Size = new System.Drawing.Size(69, 20);
+            this.Lbl_sexo.TabIndex = 13;
+            this.Lbl_sexo.Text = "Invalido";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(3, 180);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(43, 20);
+            this.label9.TabIndex = 5;
+            this.label9.Text = "Sexo";
+            // 
+            // Lbl_estado
+            // 
+            this.Lbl_estado.AutoSize = true;
+            this.Lbl_estado.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_estado.Location = new System.Drawing.Point(86, 240);
+            this.Lbl_estado.Name = "Lbl_estado";
+            this.Lbl_estado.Size = new System.Drawing.Size(69, 20);
+            this.Lbl_estado.TabIndex = 14;
+            this.Lbl_estado.Text = "Invalido";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(3, 240);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(62, 30);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "Estado Civll";
+            // 
+            // tableLayoutPanel14
+            // 
+            this.tableLayoutPanel14.ColumnCount = 3;
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.87479F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.24053F));
+            this.tableLayoutPanel14.Controls.Add(this.label18, 1, 1);
+            this.tableLayoutPanel14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel14.Location = new System.Drawing.Point(57, 3);
+            this.tableLayoutPanel14.Name = "tableLayoutPanel14";
+            this.tableLayoutPanel14.RowCount = 3;
+            this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.21428F));
+            this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 76.78571F));
+            this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel14.Size = new System.Drawing.Size(602, 244);
+            this.tableLayoutPanel14.TabIndex = 9;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label18.Font = new System.Drawing.Font("Century Gothic", 20.75F, System.Drawing.FontStyle.Bold);
+            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
+            this.label18.Location = new System.Drawing.Point(63, 51);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(402, 172);
+            this.label18.TabIndex = 8;
+            this.label18.Text = "Validación de DPI";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Appearance = System.Windows.Forms.TabAppearance.FlatButtons;
+            this.tabControl1.Controls.Add(this.tabPage4);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage5);
+            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.Location = new System.Drawing.Point(257, 114);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(947, 791);
+            this.tabControl1.TabIndex = 12;
+            // 
+            // Btn_regresar
+            // 
+            this.Btn_regresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
+            this.Btn_regresar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Btn_regresar.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_regresar.ForeColor = System.Drawing.Color.White;
+            this.Btn_regresar.Location = new System.Drawing.Point(3, 3);
+            this.Btn_regresar.Name = "Btn_regresar";
+            this.Btn_regresar.Size = new System.Drawing.Size(398, 48);
+            this.Btn_regresar.TabIndex = 8;
+            this.Btn_regresar.Text = "Regresar a Solicitudes";
+            this.Btn_regresar.UseVisualStyleBackColor = false;
+            this.Btn_regresar.Click += new System.EventHandler(this.Btn_regresar_Click);
             // 
             // Mayor60
             // 
@@ -1374,43 +1245,21 @@
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Mayor60";
             this.Text = "Mayor60";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Mayor60_FormClosed);
             this.Load += new System.EventHandler(this.Mayor60_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
             this.tabPage5.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage4.ResumeLayout(false);
-            this.tabControl1.ResumeLayout(false);
-            this.tableLayoutPanel8.ResumeLayout(false);
-            this.tableLayoutPanel12.ResumeLayout(false);
-            this.tableLayoutPanel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Pic_foto)).EndInit();
-            this.tableLayoutPanel11.ResumeLayout(false);
-            this.tableLayoutPanel11.PerformLayout();
-            this.tableLayoutPanel14.ResumeLayout(false);
-            this.tableLayoutPanel14.PerformLayout();
-            this.tableLayoutPanel15.ResumeLayout(false);
-            this.tableLayoutPanel16.ResumeLayout(false);
-            this.tableLayoutPanel17.ResumeLayout(false);
-            this.tableLayoutPanel18.ResumeLayout(false);
-            this.tableLayoutPanel18.PerformLayout();
-            this.tableLayoutPanel19.ResumeLayout(false);
-            this.tableLayoutPanel20.ResumeLayout(false);
-            this.tableLayoutPanel20.PerformLayout();
-            this.tableLayoutPanel21.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.tableLayoutPanel23.ResumeLayout(false);
-            this.tableLayoutPanel23.PerformLayout();
             this.tableLayoutPanel25.ResumeLayout(false);
             this.tableLayoutPanel24.ResumeLayout(false);
             this.tableLayoutPanel24.PerformLayout();
@@ -1425,6 +1274,29 @@
             this.tableLayoutPanel28.ResumeLayout(false);
             this.tableLayoutPanel29.ResumeLayout(false);
             this.tableLayoutPanel30.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            this.tableLayoutPanel15.ResumeLayout(false);
+            this.tableLayoutPanel16.ResumeLayout(false);
+            this.tableLayoutPanel17.ResumeLayout(false);
+            this.tableLayoutPanel18.ResumeLayout(false);
+            this.tableLayoutPanel18.PerformLayout();
+            this.tableLayoutPanel19.ResumeLayout(false);
+            this.tableLayoutPanel20.ResumeLayout(false);
+            this.tableLayoutPanel20.PerformLayout();
+            this.tableLayoutPanel21.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.tableLayoutPanel23.ResumeLayout(false);
+            this.tableLayoutPanel23.PerformLayout();
+            this.tabPage4.ResumeLayout(false);
+            this.tableLayoutPanel8.ResumeLayout(false);
+            this.tableLayoutPanel12.ResumeLayout(false);
+            this.tableLayoutPanel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_foto)).EndInit();
+            this.tableLayoutPanel11.ResumeLayout(false);
+            this.tableLayoutPanel11.PerformLayout();
+            this.tableLayoutPanel14.ResumeLayout(false);
+            this.tableLayoutPanel14.PerformLayout();
+            this.tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1435,7 +1307,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel9;
@@ -1449,20 +1320,14 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel12;
-        private System.Windows.Forms.Button Btn_abrir;
         private System.Windows.Forms.Button Btn_validar;
         private System.Windows.Forms.Button Btn_rechazar;
-        private System.Windows.Forms.Button Btn_abrirf;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
         private System.Windows.Forms.PictureBox Pic_foto;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel11;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label Lbb_dpi2;
         private System.Windows.Forms.Button btn_verif;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label Lbl_dpiprog;
-        private System.Windows.Forms.Label Lbl_dpiprog2;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label Lbl_nombre2;
         private System.Windows.Forms.Label label7;
@@ -1471,17 +1336,13 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label Lbl_estado;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel14;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel15;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel16;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel17;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel18;
         private System.Windows.Forms.Label label19;
@@ -1522,5 +1383,6 @@
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel30;
         private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button Btn_regresar;
     }
 }

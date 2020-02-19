@@ -22,6 +22,7 @@ namespace PanelValidacion
 
             user = cui;
             InitializeComponent();
+            label3.Text = user;
         }
 
 
@@ -36,14 +37,20 @@ namespace PanelValidacion
         {
             datos = Txt_rechazo.Text;
             rechazar.llenarrechazo(user,datos);
-            this.Hide();
             Form1 frm2 = new Form1();
             frm2.Show();
+            this.Hide();
+         
         }
 
         private void Btn_Cancelar_Click(object sender, EventArgs e)
         {
             this.Hide();
+            Form1 frm2 = new Form1();
+            frm2.Show();
+
+
+
         }
 
         private void Rechazo_FormClosed(object sender, FormClosedEventArgs e)

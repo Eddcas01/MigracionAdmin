@@ -110,7 +110,9 @@ namespace PanelValidacion
                     else {
 
                         MessageBox.Show("El Dpi no existe en la base de datos de RENAP ", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-
+                        Rechazo frm = new Rechazo(dpi1);
+                        frm.Show();
+                        this.Hide();
                     }
                     
 
@@ -181,6 +183,23 @@ namespace PanelValidacion
         private void Dgb_solicitudes_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            Tramite tr = new Tramite();
+            tr.Show();
+            this.Hide();
         }
     }
 }

@@ -44,6 +44,9 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="TramiteDll">
+      <HintPath>dll\TramiteDll.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Form1.cs">
@@ -75,6 +78,12 @@
     <Compile Include="SQL-Conexion.cs" />
     <Compile Include="SQL-Rechazo.cs" />
     <Compile Include="SQL-Validacion.cs" />
+    <Compile Include="Tramite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tramite.Designer.cs">
+      <DependentUpon>Tramite.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vista2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +111,9 @@
     </Compile>
     <EmbeddedResource Include="Rechazo.resx">
       <DependentUpon>Rechazo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tramite.resx">
+      <DependentUpon>Tramite.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vista2.resx">
       <DependentUpon>Vista2.cs</DependentUpon>

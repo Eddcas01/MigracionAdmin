@@ -45,11 +45,6 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
-            this.Btn_abrir = new System.Windows.Forms.Button();
-            this.Btn_validar = new System.Windows.Forms.Button();
-            this.Btn_rechazar = new System.Windows.Forms.Button();
-            this.Btn_abrirf = new System.Windows.Forms.Button();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.Pic_foto = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
@@ -72,14 +67,11 @@
             this.button4 = new System.Windows.Forms.Button();
             this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
             this.label18 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
+            this.Btn_rechazar = new System.Windows.Forms.Button();
+            this.Btn_validar = new System.Windows.Forms.Button();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.button10 = new System.Windows.Forms.Button();
-            this.Btn_validardoc = new System.Windows.Forms.Button();
-            this.Btn_abrirdoc = new System.Windows.Forms.Button();
-            this.Btn_rechazar2 = new System.Windows.Forms.Button();
-            this.Btn_abrirFoto = new System.Windows.Forms.Button();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
             this.label20 = new System.Windows.Forms.Label();
@@ -96,14 +88,16 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel22 = new System.Windows.Forms.TableLayoutPanel();
             this.label31 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.Btn_rechazar2 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.Btn_validardoc = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel15 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel16 = new System.Windows.Forms.TableLayoutPanel();
             this.button11 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
             this.tableLayoutPanel17 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
             this.label19 = new System.Windows.Forms.Label();
@@ -159,14 +153,13 @@
             this.tabControl1.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tableLayoutPanel8.SuspendLayout();
-            this.tableLayoutPanel12.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_foto)).BeginInit();
             this.tableLayoutPanel11.SuspendLayout();
             this.tableLayoutPanel14.SuspendLayout();
+            this.tableLayoutPanel12.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
             this.tableLayoutPanel9.SuspendLayout();
@@ -174,6 +167,7 @@
             this.tableLayoutPanel13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tableLayoutPanel22.SuspendLayout();
+            this.tableLayoutPanel4.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tableLayoutPanel15.SuspendLayout();
             this.tableLayoutPanel16.SuspendLayout();
@@ -449,9 +443,9 @@
             this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.21491F));
             this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.79528F));
             this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel12, 2, 1);
             this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel5, 1, 1);
             this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel14, 1, 0);
+            this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel12, 2, 1);
             this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
@@ -462,80 +456,6 @@
             this.tableLayoutPanel8.Size = new System.Drawing.Size(933, 753);
             this.tableLayoutPanel8.TabIndex = 8;
             this.tableLayoutPanel8.Paint += new System.Windows.Forms.PaintEventHandler(this.TableLayoutPanel8_Paint);
-            // 
-            // tableLayoutPanel12
-            // 
-            this.tableLayoutPanel12.ColumnCount = 1;
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel12.Controls.Add(this.Btn_abrir, 0, 0);
-            this.tableLayoutPanel12.Controls.Add(this.Btn_validar, 0, 1);
-            this.tableLayoutPanel12.Controls.Add(this.Btn_rechazar, 0, 2);
-            this.tableLayoutPanel12.Controls.Add(this.Btn_abrirf, 0, 3);
-            this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel12.Location = new System.Drawing.Point(671, 253);
-            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
-            this.tableLayoutPanel12.RowCount = 4;
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel12.Size = new System.Drawing.Size(238, 316);
-            this.tableLayoutPanel12.TabIndex = 6;
-            // 
-            // Btn_abrir
-            // 
-            this.Btn_abrir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.Btn_abrir.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Btn_abrir.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.Btn_abrir.ForeColor = System.Drawing.Color.White;
-            this.Btn_abrir.Location = new System.Drawing.Point(3, 3);
-            this.Btn_abrir.Name = "Btn_abrir";
-            this.Btn_abrir.Size = new System.Drawing.Size(232, 73);
-            this.Btn_abrir.TabIndex = 0;
-            this.Btn_abrir.Text = "Abrir Documento";
-            this.Btn_abrir.UseVisualStyleBackColor = false;
-            this.Btn_abrir.Click += new System.EventHandler(this.Button8_Click);
-            // 
-            // Btn_validar
-            // 
-            this.Btn_validar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.Btn_validar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Btn_validar.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.Btn_validar.ForeColor = System.Drawing.Color.White;
-            this.Btn_validar.Location = new System.Drawing.Point(3, 82);
-            this.Btn_validar.Name = "Btn_validar";
-            this.Btn_validar.Size = new System.Drawing.Size(232, 73);
-            this.Btn_validar.TabIndex = 1;
-            this.Btn_validar.Text = "Validar Documento";
-            this.Btn_validar.UseVisualStyleBackColor = false;
-            this.Btn_validar.Click += new System.EventHandler(this.Button9_Click_1);
-            // 
-            // Btn_rechazar
-            // 
-            this.Btn_rechazar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.Btn_rechazar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Btn_rechazar.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.Btn_rechazar.ForeColor = System.Drawing.Color.White;
-            this.Btn_rechazar.Location = new System.Drawing.Point(3, 161);
-            this.Btn_rechazar.Name = "Btn_rechazar";
-            this.Btn_rechazar.Size = new System.Drawing.Size(232, 73);
-            this.Btn_rechazar.TabIndex = 2;
-            this.Btn_rechazar.Text = "Rechazar Documento";
-            this.Btn_rechazar.UseVisualStyleBackColor = false;
-            this.Btn_rechazar.Click += new System.EventHandler(this.Btn_rechazar_Click);
-            // 
-            // Btn_abrirf
-            // 
-            this.Btn_abrirf.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.Btn_abrirf.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Btn_abrirf.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.Btn_abrirf.ForeColor = System.Drawing.Color.White;
-            this.Btn_abrirf.Location = new System.Drawing.Point(3, 240);
-            this.Btn_abrirf.Name = "Btn_abrirf";
-            this.Btn_abrirf.Size = new System.Drawing.Size(232, 73);
-            this.Btn_abrirf.TabIndex = 1;
-            this.Btn_abrirf.Text = "Abrir Fotografia";
-            this.Btn_abrirf.UseVisualStyleBackColor = false;
             // 
             // tableLayoutPanel5
             // 
@@ -803,6 +723,49 @@
             this.label18.Text = "Validación de DPI";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // tableLayoutPanel12
+            // 
+            this.tableLayoutPanel12.ColumnCount = 1;
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel12.Controls.Add(this.Btn_rechazar, 0, 1);
+            this.tableLayoutPanel12.Controls.Add(this.Btn_validar, 0, 0);
+            this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel12.Location = new System.Drawing.Point(671, 253);
+            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
+            this.tableLayoutPanel12.RowCount = 2;
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(238, 316);
+            this.tableLayoutPanel12.TabIndex = 10;
+            // 
+            // Btn_rechazar
+            // 
+            this.Btn_rechazar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
+            this.Btn_rechazar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Btn_rechazar.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.Btn_rechazar.ForeColor = System.Drawing.Color.White;
+            this.Btn_rechazar.Location = new System.Drawing.Point(3, 161);
+            this.Btn_rechazar.Name = "Btn_rechazar";
+            this.Btn_rechazar.Size = new System.Drawing.Size(232, 152);
+            this.Btn_rechazar.TabIndex = 2;
+            this.Btn_rechazar.Text = "Rechazar Documento";
+            this.Btn_rechazar.UseVisualStyleBackColor = false;
+            this.Btn_rechazar.Click += new System.EventHandler(this.Btn_rechazar_Click);
+            // 
+            // Btn_validar
+            // 
+            this.Btn_validar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
+            this.Btn_validar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Btn_validar.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.Btn_validar.ForeColor = System.Drawing.Color.White;
+            this.Btn_validar.Location = new System.Drawing.Point(3, 3);
+            this.Btn_validar.Name = "Btn_validar";
+            this.Btn_validar.Size = new System.Drawing.Size(232, 152);
+            this.Btn_validar.TabIndex = 1;
+            this.Btn_validar.Text = "Validar Documento";
+            this.Btn_validar.UseVisualStyleBackColor = false;
+            this.Btn_validar.Click += new System.EventHandler(this.Button9_Click_1);
+            // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.tableLayoutPanel3);
@@ -821,9 +784,9 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.88686F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.06315F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel4, 2, 1);
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel6, 1, 1);
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel22, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel4, 2, 1);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
@@ -833,95 +796,6 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 32.80212F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(933, 753);
             this.tableLayoutPanel3.TabIndex = 9;
-            // 
-            // tableLayoutPanel4
-            // 
-            this.tableLayoutPanel4.ColumnCount = 1;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Controls.Add(this.button10, 0, 4);
-            this.tableLayoutPanel4.Controls.Add(this.Btn_validardoc, 0, 1);
-            this.tableLayoutPanel4.Controls.Add(this.Btn_abrirdoc, 0, 0);
-            this.tableLayoutPanel4.Controls.Add(this.Btn_rechazar2, 0, 2);
-            this.tableLayoutPanel4.Controls.Add(this.Btn_abrirFoto, 0, 3);
-            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(668, 201);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 5;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(241, 301);
-            this.tableLayoutPanel4.TabIndex = 6;
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.button10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button10.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.button10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button10.Location = new System.Drawing.Point(3, 243);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(235, 55);
-            this.button10.TabIndex = 5;
-            this.button10.Text = "Regresar Al Documento Anterior";
-            this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.Button10_Click);
-            // 
-            // Btn_validardoc
-            // 
-            this.Btn_validardoc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.Btn_validardoc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Btn_validardoc.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.Btn_validardoc.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Btn_validardoc.Location = new System.Drawing.Point(3, 63);
-            this.Btn_validardoc.Name = "Btn_validardoc";
-            this.Btn_validardoc.Size = new System.Drawing.Size(235, 54);
-            this.Btn_validardoc.TabIndex = 4;
-            this.Btn_validardoc.Text = "Validar Documento";
-            this.Btn_validardoc.UseVisualStyleBackColor = false;
-            this.Btn_validardoc.Click += new System.EventHandler(this.Btn_validardoc_Click);
-            // 
-            // Btn_abrirdoc
-            // 
-            this.Btn_abrirdoc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.Btn_abrirdoc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Btn_abrirdoc.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.Btn_abrirdoc.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Btn_abrirdoc.Location = new System.Drawing.Point(3, 3);
-            this.Btn_abrirdoc.Name = "Btn_abrirdoc";
-            this.Btn_abrirdoc.Size = new System.Drawing.Size(235, 54);
-            this.Btn_abrirdoc.TabIndex = 3;
-            this.Btn_abrirdoc.Text = "Abrir Documento";
-            this.Btn_abrirdoc.UseVisualStyleBackColor = false;
-            // 
-            // Btn_rechazar2
-            // 
-            this.Btn_rechazar2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.Btn_rechazar2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Btn_rechazar2.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.Btn_rechazar2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Btn_rechazar2.Location = new System.Drawing.Point(3, 123);
-            this.Btn_rechazar2.Name = "Btn_rechazar2";
-            this.Btn_rechazar2.Size = new System.Drawing.Size(235, 54);
-            this.Btn_rechazar2.TabIndex = 2;
-            this.Btn_rechazar2.Text = "Rechazar Documento";
-            this.Btn_rechazar2.UseVisualStyleBackColor = false;
-            this.Btn_rechazar2.Click += new System.EventHandler(this.Btn_rechazar2_Click);
-            // 
-            // Btn_abrirFoto
-            // 
-            this.Btn_abrirFoto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.Btn_abrirFoto.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Btn_abrirFoto.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.Btn_abrirFoto.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Btn_abrirFoto.Location = new System.Drawing.Point(3, 183);
-            this.Btn_abrirFoto.Name = "Btn_abrirFoto";
-            this.Btn_abrirFoto.Size = new System.Drawing.Size(235, 54);
-            this.Btn_abrirFoto.TabIndex = 1;
-            this.Btn_abrirFoto.Text = "Abrir Fotografia";
-            this.Btn_abrirFoto.UseVisualStyleBackColor = false;
             // 
             // tableLayoutPanel6
             // 
@@ -1133,6 +1007,65 @@
             this.label31.Text = "Validación de Boleto de Ornato";
             this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.ColumnCount = 1;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel4.Controls.Add(this.Btn_rechazar2, 0, 1);
+            this.tableLayoutPanel4.Controls.Add(this.button10, 0, 2);
+            this.tableLayoutPanel4.Controls.Add(this.Btn_validardoc, 0, 0);
+            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(668, 201);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 3;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(241, 301);
+            this.tableLayoutPanel4.TabIndex = 11;
+            // 
+            // Btn_rechazar2
+            // 
+            this.Btn_rechazar2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
+            this.Btn_rechazar2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Btn_rechazar2.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.Btn_rechazar2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Btn_rechazar2.Location = new System.Drawing.Point(3, 103);
+            this.Btn_rechazar2.Name = "Btn_rechazar2";
+            this.Btn_rechazar2.Size = new System.Drawing.Size(235, 94);
+            this.Btn_rechazar2.TabIndex = 2;
+            this.Btn_rechazar2.Text = "Rechazar Documento";
+            this.Btn_rechazar2.UseVisualStyleBackColor = false;
+            this.Btn_rechazar2.Click += new System.EventHandler(this.Btn_rechazar2_Click);
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
+            this.button10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button10.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.button10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button10.Location = new System.Drawing.Point(3, 203);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(235, 95);
+            this.button10.TabIndex = 5;
+            this.button10.Text = "Regresar Al Documento Anterior";
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.Button10_Click);
+            // 
+            // Btn_validardoc
+            // 
+            this.Btn_validardoc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
+            this.Btn_validardoc.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Btn_validardoc.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.Btn_validardoc.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Btn_validardoc.Location = new System.Drawing.Point(3, 3);
+            this.Btn_validardoc.Name = "Btn_validardoc";
+            this.Btn_validardoc.Size = new System.Drawing.Size(235, 94);
+            this.Btn_validardoc.TabIndex = 4;
+            this.Btn_validardoc.Text = "Validar Documento";
+            this.Btn_validardoc.UseVisualStyleBackColor = false;
+            this.Btn_validardoc.Click += new System.EventHandler(this.Btn_validardoc_Click);
+            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.tableLayoutPanel15);
@@ -1168,17 +1101,13 @@
             // 
             this.tableLayoutPanel16.ColumnCount = 1;
             this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel16.Controls.Add(this.button11, 0, 4);
-            this.tableLayoutPanel16.Controls.Add(this.button6, 0, 1);
-            this.tableLayoutPanel16.Controls.Add(this.button7, 0, 0);
-            this.tableLayoutPanel16.Controls.Add(this.button8, 0, 2);
-            this.tableLayoutPanel16.Controls.Add(this.button9, 0, 3);
+            this.tableLayoutPanel16.Controls.Add(this.button11, 0, 2);
+            this.tableLayoutPanel16.Controls.Add(this.button6, 0, 0);
+            this.tableLayoutPanel16.Controls.Add(this.button8, 0, 1);
             this.tableLayoutPanel16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel16.Location = new System.Drawing.Point(668, 201);
             this.tableLayoutPanel16.Name = "tableLayoutPanel16";
-            this.tableLayoutPanel16.RowCount = 5;
-            this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel16.RowCount = 3;
             this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -1191,9 +1120,9 @@
             this.button11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button11.Font = new System.Drawing.Font("Century Gothic", 10.8F);
             this.button11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button11.Location = new System.Drawing.Point(3, 239);
+            this.button11.Location = new System.Drawing.Point(3, 201);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(235, 55);
+            this.button11.Size = new System.Drawing.Size(235, 93);
             this.button11.TabIndex = 5;
             this.button11.Text = "Regresar Al Documento Anterior";
             this.button11.UseVisualStyleBackColor = false;
@@ -1205,26 +1134,13 @@
             this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button6.Font = new System.Drawing.Font("Century Gothic", 10.8F);
             this.button6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button6.Location = new System.Drawing.Point(3, 62);
+            this.button6.Location = new System.Drawing.Point(3, 3);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(235, 53);
+            this.button6.Size = new System.Drawing.Size(235, 93);
             this.button6.TabIndex = 4;
             this.button6.Text = "Validar Documento";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.Button6_Click);
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.button7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button7.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.button7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button7.Location = new System.Drawing.Point(3, 3);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(235, 53);
-            this.button7.TabIndex = 3;
-            this.button7.Text = "Abrir Documento";
-            this.button7.UseVisualStyleBackColor = false;
             // 
             // button8
             // 
@@ -1232,26 +1148,13 @@
             this.button8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button8.Font = new System.Drawing.Font("Century Gothic", 10.8F);
             this.button8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button8.Location = new System.Drawing.Point(3, 121);
+            this.button8.Location = new System.Drawing.Point(3, 102);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(235, 53);
+            this.button8.Size = new System.Drawing.Size(235, 93);
             this.button8.TabIndex = 2;
             this.button8.Text = "Rechazar Documento";
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.Button8_Click_2);
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(72)))), ((int)(((byte)(115)))));
-            this.button9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button9.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.button9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button9.Location = new System.Drawing.Point(3, 180);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(235, 53);
-            this.button9.TabIndex = 1;
-            this.button9.Text = "Abrir Fotografia";
-            this.button9.UseVisualStyleBackColor = false;
             // 
             // tableLayoutPanel17
             // 
@@ -1883,16 +1786,15 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
             this.tableLayoutPanel8.ResumeLayout(false);
-            this.tableLayoutPanel12.ResumeLayout(false);
             this.tableLayoutPanel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Pic_foto)).EndInit();
             this.tableLayoutPanel11.ResumeLayout(false);
             this.tableLayoutPanel11.PerformLayout();
             this.tableLayoutPanel14.ResumeLayout(false);
             this.tableLayoutPanel14.PerformLayout();
+            this.tableLayoutPanel12.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel6.ResumeLayout(false);
             this.tableLayoutPanel7.ResumeLayout(false);
             this.tableLayoutPanel7.PerformLayout();
@@ -1903,6 +1805,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tableLayoutPanel22.ResumeLayout(false);
             this.tableLayoutPanel22.PerformLayout();
+            this.tableLayoutPanel4.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tableLayoutPanel15.ResumeLayout(false);
             this.tableLayoutPanel16.ResumeLayout(false);
@@ -1957,11 +1860,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel11;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button Btn_abrirf;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel12;
-        private System.Windows.Forms.Button Btn_abrir;
         private System.Windows.Forms.Button Btn_validar;
-        private System.Windows.Forms.Button Btn_rechazar;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label5;
@@ -1974,9 +1873,7 @@
         private System.Windows.Forms.Label Lbl_estado;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.Button Btn_rechazar2;
-        private System.Windows.Forms.Button Btn_abrirFoto;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
@@ -1992,7 +1889,6 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel10;
         private System.Windows.Forms.Button Btn_validardoc;
-        private System.Windows.Forms.Button Btn_abrirdoc;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel13;
         private System.Windows.Forms.Button Btn_carta;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel14;
@@ -2000,9 +1896,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel15;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel16;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel17;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel18;
         private System.Windows.Forms.Label label19;
@@ -2061,5 +1955,8 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel12;
+        private System.Windows.Forms.Button Btn_rechazar;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
     }
 }

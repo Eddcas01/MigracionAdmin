@@ -23,41 +23,7 @@ namespace PanelValidacion
         public void llenardatap1(string cui)
         {
 
-            dato = cui;
-
-
-            string sql2 = "SELECT cui_progenitor FROM dpis_progenitores WHERE  cui_menor = '" + dato + "'; ";
-            OdbcCommand command2 = new OdbcCommand(sql2, conectar.conexion());
-            OdbcDataReader reader2 = command2.ExecuteReader();
-
-            while (reader2.Read())
-            {
-
-                string dpi1 = reader2.GetValue(0).ToString();
-
-
-
-                if (dpi1 != null)
-                {
-
-                    Lbl_dpiprog.Text = dpi1;
-
-
-
-
-
-
-                }
-                else
-                {
-
-                    button3.BackColor = Color.Red;
-                    button4.BackColor = Color.Red;
-                }
-
-
-
-            }
+            dato = cui;      
 
             string sql = "SELECT * FROM dpis WHERE  cui = '" + dato + "'; ";
             OdbcCommand command = new OdbcCommand(sql, conectar.conexion());
@@ -68,7 +34,8 @@ namespace PanelValidacion
                 Lbb_dpi2.Text = reader.GetValue(1).ToString();
                 Lbl_nombre2.Text = reader.GetValue(2).ToString();
                 Lbl_apellidos.Text = reader.GetValue(3).ToString();
-                Lbl_sexo.Text = reader.GetValue(4).ToString();
+                Lbl_fechanac.Text = reader.GetValue(4).ToString();
+                Lbl_sexo.Text = reader.GetValue(7).ToString();
                 Lbl_estado.Text = reader.GetValue(5).ToString();
 
             }
@@ -84,15 +51,17 @@ namespace PanelValidacion
 
             dato = cui;
 
-            string sql = "SELECT no_documento FROM  documentos WHERE  cui = '" + dato + "' AND nombre_documento = 'boleto_ornato' AND estado_documento = 'Activo'; ";
+            string sql = "SELECT no_documento FROM  documentos WHERE  cui = '" + dato + "' AND nombre_documento = 'Boleto_Ornato' AND estado_documento = 'Activado'; ";
             OdbcCommand command = new OdbcCommand(sql, conectar.conexion());
             OdbcDataReader reader = command.ExecuteReader();
-            while (reader.Read())
-            {
-                string no_boleto = reader.GetValue(0).ToString();
+           
+               
 
-                if (no_boleto != " ")
+                if (reader.Read() != false)
                 {
+
+                    string no_boleto = reader.GetValue(0).ToString();
+
                     string sql2 = "SELECT * FROM  boletos WHERE  no_boleto = '" + no_boleto + "'; ";
                     OdbcCommand command2 = new OdbcCommand(sql2, conectar.conexion());
                     OdbcDataReader reader2 = command2.ExecuteReader();
@@ -129,7 +98,7 @@ namespace PanelValidacion
 
                 }
 
-            }
+            
 
 
 
@@ -145,15 +114,16 @@ namespace PanelValidacion
             dato = cui;
 
 
-            string sql = "SELECT no_documento FROM  documentos WHERE  cui = '" + dato + "' AND nombre_documento = 'boleta_pago' AND estado_documento = 'Activo'; ";
+            string sql = "SELECT no_documento FROM  documentos WHERE  cui = '" + dato + "' AND nombre_documento = 'No_Boleta' AND estado_documento = 'Activado'; ";
             OdbcCommand command = new OdbcCommand(sql, conectar.conexion());
             OdbcDataReader reader = command.ExecuteReader();
-            while (reader.Read())
-            {
-                string no_boleta = reader.GetValue(0).ToString();
+          
+                
 
-                if (no_boleta != " ")
+                if (reader.Read()!= false)
                 {
+
+                    string no_boleta = reader.GetValue(0).ToString();
                     string sql2 = "SELECT * FROM  boletas_bancos WHERE  no_boleta = '" + no_boleta + "'; ";
                     OdbcCommand command2 = new OdbcCommand(sql2, conectar.conexion());
                     OdbcDataReader reader2 = command2.ExecuteReader();
@@ -164,13 +134,13 @@ namespace PanelValidacion
 
                         OdbcCommand command3 = new OdbcCommand(sql2, conectar.conexion());
                         OdbcDataReader reader3 = command3.ExecuteReader();
-
+                                 
 
                         while (reader3.Read())
                         {
                             Lbl_noBoleta.Text = reader3.GetValue(1).ToString();
-                            Lbl_fecha.Text = reader3.GetValue(2).ToString();
-                            Lbl_estadobol.Text = reader3.GetValue(3).ToString();
+                            Lbl_fecha.Text = reader3.GetValue(3).ToString();
+                            Lbl_estadobol.Text = reader3.GetValue(5).ToString();
 
 
                         }
@@ -179,8 +149,8 @@ namespace PanelValidacion
                     else
                     {
 
-                        MessageBox.Show("El numero de boleto no existe en la base de datos de la Municipalidad ", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                        button1.BackColor = Color.Red;
+                        MessageBox.Show("El numero de boleta no existe en la base de datos del Banco ", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                        button2.BackColor = Color.Red;
                     }
                 }
                 else
@@ -190,7 +160,7 @@ namespace PanelValidacion
 
                 }
 
-            }
+            
 
 
         }
@@ -259,7 +229,8 @@ namespace PanelValidacion
         {
             InitializeComponent();
             user = cui;
-            label3.Text = user;
+           
+            llenardatap1(user);
         }
 
         private void HideAllTabsOnTabControl(TabControl theTabControl)
@@ -271,6 +242,118 @@ namespace PanelValidacion
         private void MayorEdad_Load(object sender, EventArgs e)
         {
             HideAllTabsOnTabControl(tabControl1);
+        }
+
+        private void Btn_validar_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 1;
+            setButtonsColors(Btn_ornato);
+            llenardatapboleto(user);
+        }
+
+        private void Btn_validardoc_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 2;
+            setButtonsColors(Btn_pago);
+            llenardatapago(user);
+        }
+
+        private void Button6_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 3;
+            setButtonsColors(Btn_estatus);
+            llenarestatus(user);
+        }
+
+        private void Button12_Click(object sender, EventArgs e)
+        {
+            string fecha;
+
+            DialogResult resul = MessageBox.Show("¿Esta seguro que desea validar los documentos? ", "Alerta", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (resul == DialogResult.Yes)
+            {
+
+
+                fecha = DateTime.Now.ToString("yyyy-MM-dd");
+
+                string sql = "iNSERT INTO aceptaciones_documentos (cui, id_recepcion, fecha_aceptacion ) VALUES ('" + dato + "', (SELECT id_recepcion FROM recepciones_documentos WHERE cui = '" + dato + "' AND estado_recepcion = 'Activo') , '" + fecha + "')";
+                OdbcCommand command = new OdbcCommand(sql, conectar.conexion());
+                OdbcDataReader reader = command.ExecuteReader();
+
+                string sql2 = "UPDATE recepciones_documentos SET estado_recepcion='Inactivo' WHERE cui = " + dato;
+                OdbcCommand command2 = new OdbcCommand(sql2, conectar.conexion());
+                OdbcDataReader reader2 = command2.ExecuteReader();
+
+                Form1 frm = new Form1();
+                frm.Show();
+                this.Hide();
+
+            }
+
+            else
+            {
+
+                Form1 frm = new Form1();
+                frm.Show();
+                this.Hide();
+
+
+            }
+        }
+
+        private void MayorEdad_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Form1 frm = new Form1();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void Btn_rechazar_Click(object sender, EventArgs e)
+        {
+            Rechazo frm = new Rechazo(user);
+            frm.Show();
+            this.Hide();
+        }
+
+        private void Btn_rechazar2_Click(object sender, EventArgs e)
+        {
+            Rechazo frm = new Rechazo(user);
+            frm.Show();
+            this.Hide();
+        }
+
+        private void Button8_Click(object sender, EventArgs e)
+        {
+            Rechazo frm = new Rechazo(user);
+            frm.Show();
+            this.Hide();        
+        }
+
+        private void Button10_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 0;
+            setButtonsColors(Btn_dpi);
+        }
+
+        private void Button11_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 1;
+            setButtonsColors(Btn_ornato);
+        }
+
+        private void Button13_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 2;
+            setButtonsColors(Btn_pago);
+        }
+
+        private void Btn_regresar_Click(object sender, EventArgs e)
+        {
+            Form1 frm = new Form1();
+            frm.Show();
+
+            this.Hide();
         }
     }
 }

@@ -24,39 +24,7 @@ namespace PanelValidacion
             dato = cui;
 
 
-            string sql2 = "SELECT cui_progenitor FROM dpis_progenitores WHERE  cui_menor = '" + dato + "'; ";
-            OdbcCommand command2 = new OdbcCommand(sql2, conectar.conexion());
-            OdbcDataReader reader2 = command2.ExecuteReader();
-
-            while (reader2.Read())
-            {
-
-                string dpi1 = reader2.GetValue(0).ToString();
-
-
-
-                if (dpi1 != null)
-                {
-
-                    Lbl_dpiprog.Text = dpi1;
-
-
-
-
-
-
-                }
-                else
-                {
-
-                    button3.BackColor = Color.Red;
-                    button4.BackColor = Color.Red;
-                }
-
-
-
-            }
-
+        
             string sql = "SELECT * FROM dpis WHERE  cui = '" + dato + "'; ";
             OdbcCommand command = new OdbcCommand(sql, conectar.conexion());
             OdbcDataReader reader = command.ExecuteReader();
@@ -83,7 +51,7 @@ namespace PanelValidacion
             dato = cui;
 
 
-            string sql = "SELECT no_documento FROM  documentos WHERE  cui = '" + dato + "' AND nombre_documento = 'boleta_pago' AND estado_documento = 'Activo'; ";
+            string sql = "SELECT no_documento FROM  documentos WHERE  cui = '" + dato + "' AND nombre_documento = 'No_boleta' AND estado_documento = 'Activado'; ";
             OdbcCommand command = new OdbcCommand(sql, conectar.conexion());
             OdbcDataReader reader = command.ExecuteReader();
             while (reader.Read())
@@ -107,8 +75,8 @@ namespace PanelValidacion
                         while (reader3.Read())
                         {
                             Lbl_noBoleta.Text = reader3.GetValue(1).ToString();
-                            Lbl_fecha.Text = reader3.GetValue(2).ToString();
-                            Lbl_estadobol.Text = reader3.GetValue(3).ToString();
+                            Lbl_fecha.Text = reader3.GetValue(3).ToString();
+                            Lbl_estadobol.Text = reader3.GetValue(5).ToString();
 
 
                         }
@@ -194,7 +162,7 @@ namespace PanelValidacion
         {
             InitializeComponent();
             user = cui;
-            label3.Text = user;
+        
             llenardata(user);
         }
 
@@ -263,6 +231,98 @@ namespace PanelValidacion
         private void Button13_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Btn_validar_Click_1(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 1;
+            setButtonsColors(Btn_pago);
+            llenardatapago(user);
+        }
+
+        private void Button6_Click_1(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 2;
+            setButtonsColors(Btn_estatus);
+            llenarestatus(user);
+        }
+
+        private void Button12_Click_1(object sender, EventArgs e)
+        {
+            string fecha;
+
+            DialogResult resul = MessageBox.Show("¿Esta seguro que desea validar los documentos? ", "Alerta", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (resul == DialogResult.Yes)
+            {
+
+
+                fecha = DateTime.Now.ToString("yyyy-MM-dd");
+
+                string sql = "iNSERT INTO aceptaciones_documentos (cui, id_recepcion, fecha_aceptacion ) VALUES ('" + dato + "', (SELECT id_recepcion FROM recepciones_documentos WHERE cui = '" + dato + "' AND estado_recepcion = 'Activo') , '" + fecha + "')";
+                OdbcCommand command = new OdbcCommand(sql, conectar.conexion());
+                OdbcDataReader reader = command.ExecuteReader();
+
+                string sql2 = "UPDATE recepciones_documentos SET estado_recepcion='Inactivo' WHERE cui = " + dato;
+                OdbcCommand command2 = new OdbcCommand(sql2, conectar.conexion());
+                OdbcDataReader reader2 = command2.ExecuteReader();
+
+                Form1 frm = new Form1();
+                frm.Show();
+                this.Hide();
+
+            }
+
+            else
+            {
+
+                Form1 frm = new Form1();
+                frm.Show();
+                this.Hide();
+
+
+            }
+        }
+
+        private void Mayor60_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Form1 frm = new Form1();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void Btn_rechazar_Click(object sender, EventArgs e)
+        {
+            Rechazo frm = new Rechazo(user);
+            frm.Show();
+            this.Hide();
+        }
+
+        private void Button8_Click(object sender, EventArgs e)
+        {
+            Rechazo frm = new Rechazo(user);
+            frm.Show();
+            this.Hide();
+        }
+
+        private void Button11_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 0;
+            setButtonsColors(Btn_dpi);
+        }
+
+        private void Button13_Click_1(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 1;
+            setButtonsColors(Btn_pago);
+        }
+
+        private void Btn_regresar_Click(object sender, EventArgs e)
+        {
+            Form1 frm = new Form1();
+            frm.Show();
+
+            this.Hide();
         }
     }
 }

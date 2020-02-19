@@ -12,3 +12,7 @@ C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\obj\Debug\PanelValid
 C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\obj\Debug\PanelValidacion.Rechazo.resources
 C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\obj\Debug\PanelValidacion.Mayor60.resources
 C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\obj\Debug\PanelValidacion.MayorEdad.resources
+C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\bin\Debug\TramiteDll.dll
+C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\bin\Debug\TramiteDll.dll.config
+C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\obj\Debug\PanelValidacion.Tramite.resources
+C:\Users\edgar\source\repos\PanelValidacion\PanelValidacion\obj\Debug\PanelValidacion.csproj.CopyComplete

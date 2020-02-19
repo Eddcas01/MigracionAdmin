@@ -81,7 +81,7 @@ namespace PanelValidacion
 
             dato = cui;
 
-            string sql = "SELECT no_documento FROM  documentos WHERE  cui = '" + dato + "' AND nombre_documento = 'boleto_ornato' AND estado_documento = 'Activo'; ";
+            string sql = "SELECT no_documento FROM  documentos WHERE  cui = '" + dato + "' AND nombre_documento = 'Boleto_Ornato' AND estado_documento = 'Activado'; ";
             OdbcCommand command = new OdbcCommand(sql, conectar.conexion());
             OdbcDataReader reader = command.ExecuteReader();
             while (reader.Read())
@@ -142,7 +142,7 @@ namespace PanelValidacion
             dato = cui;
 
 
-            string sql = "SELECT no_documento FROM  documentos WHERE  cui = '" + dato + "' AND nombre_documento = 'boleta_pago' AND estado_documento = 'Activo'; ";
+            string sql = "SELECT no_documento FROM  documentos WHERE  cui = '" + dato + "' AND nombre_documento = 'No_Boleta' AND estado_documento = 'Activado'; ";
             OdbcCommand command = new OdbcCommand(sql, conectar.conexion());
             OdbcDataReader reader = command.ExecuteReader();
             while (reader.Read())
@@ -166,8 +166,8 @@ namespace PanelValidacion
                         while (reader3.Read())
                         {
                             Lbl_noBoleta.Text = reader3.GetValue(1).ToString();
-                            Lbl_fecha.Text = reader3.GetValue(2).ToString();
-                            Lbl_estadobol.Text = reader3.GetValue(3).ToString();
+                            Lbl_fecha.Text = reader3.GetValue(3).ToString();
+                            Lbl_estadobol.Text = reader3.GetValue(5).ToString();
 
 
                         }
@@ -406,7 +406,9 @@ namespace PanelValidacion
 
         private void Vista2_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit();
+            Form1 frm = new Form1();
+            frm.Show();
+            this.Hide();
         }
 
         private void Btn_regresar_Click(object sender, EventArgs e)
@@ -437,6 +439,8 @@ namespace PanelValidacion
                 string sql2 = "UPDATE recepciones_documentos SET estado_recepcion='Inactivo' WHERE cui = " +dato ;
                 OdbcCommand command2 = new OdbcCommand(sql2, conectar.conexion());
                 OdbcDataReader reader2 = command2.ExecuteReader();
+
+
 
                 Form1 frm = new Form1();
                 frm.Show();
